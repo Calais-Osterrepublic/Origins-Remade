@@ -11,7 +11,7 @@
     },
     {
         "name": "Chieftain",
-        "greatPersonPoints":{},
+        "greatPersonPoints":{"Tribe"},
         "color": [255, 255, 20]
     },
     {
