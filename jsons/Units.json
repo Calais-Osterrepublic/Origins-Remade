@@ -13,43 +13,50 @@
 			"Requires at least [2] population"
         ]
     },
-    {   //Tribesmen
-		"name": "Tribesmen",
-		"unitType": "Civilian",
-		"movement": 1,
-		"uniques": [
-			"Can build [Land] improvements on tiles"
-		],
-		"cost": 100
-	},
-
-    //
-    // Irregular Infantry
-    //
-    {   //Hunters
-        "name": "Hunters",
-        "unitType": "Irregular Infantry",
-        "movement": 1,
-        "strength": 1,
-        "cost": 100,
-        "uniques": [
+	{   //Tribesmen
+	"name": "Tribesmen",
+	"unitType": "Civilian",
+	"movement": 1,
+	"uniques": [
+		"Can build [Land] improvements on tiles"
+	],
+	"cost": 100
+    },
+    	{   
+		"name": "Hunters",
+	        "unitType": "Melee Infantry",
+	        "movement": 1,
+	        "strength": 8,
+	        "cost": 100,
+	        "uniques": [
 			"Never appears as a Barbarian unit"
 		]
-    },
+    	},
 
     //
     // Barbarians
     //
     {   //Wolves
         "name": "Wolves",
-		"unitType": "Animals",
+		"unitType": "Animal",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
-		"strength": 1,
+		"strength": 6,
 		"cost": 100,
 		"uniques": [
 			"No defensive terrain bonus",
 			"Can move after attacking"
 		]
-    }
+    },
+{
+        "name": "Wildmen",
+		"unitType": "Melee Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 1,
+		"strength": 8,
+		"cost": 100,
+		"uniques": [
+			"[+20]% Strength bonus for [Animal] units within [3] tiles"
+		]
+    },
 ]
