@@ -10,8 +10,8 @@
     ],
     "constants":{
         "maxXPfromBarbarians": 100000000,
-        "cityStrengthBase": 1,
-        "cityStrengthPerPop": 0.1,
+        "cityStrengthBase": 5,
+        "cityStrengthPerPop": 0.2,
         "cityStrengthFromTechsMultiplier": 0
     },
     "ancientRuinCountMultiplier": 0.02
