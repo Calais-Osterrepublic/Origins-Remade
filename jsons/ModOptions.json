@@ -4,14 +4,14 @@
     "uniques":[
         "Can convert gold to science with sliders",
         "Allow City States to spawn with additional units",
-        "Can trade civilization introductions for [100] Gold"
+        "Can trade civilization introductions for [100] Gold",
+        "Allow raze capital"
     ],
     "constants":{
         "maxXPfromBarbarians": 100000000,
         "cityStrengthBase": 1,
         "cityStrengthPerPop": 0.1,
-        "cityStrengthFromTechsMultiplier": 0,
-        "unitUpgradeCost":{}
+        "cityStrengthFromTechsMultiplier": 0
     },
     "ancientRuinCountMultiplier": 0.02
   }
