@@ -4,7 +4,7 @@ Made off of the framework by Monokiro.
 Wishes to expand on some of the ideas he began the project with.
 
 # NOTICE:
-
+Visuals WILL be neglected for the early part of this mod. I am sorry. I'm not a fan of this situation either.
 
 # Indev Checklist:
  - Fix bugs from the base mod.
