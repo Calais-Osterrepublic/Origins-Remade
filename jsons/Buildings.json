@@ -2,6 +2,7 @@
     {	//	Tribe Center
 		"name": "Tribe Center",
 		"maintenance": 0,
+	    "specialistSlots": {"Chieftain":1},
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": [
