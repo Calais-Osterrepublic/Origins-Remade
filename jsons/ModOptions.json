@@ -1,21 +1,18 @@
-{
-    isBaseRuleset: true,
-    modUrl: "https://github.com/Monokiro/Origins",
-    uniques:[
+[
+  {  
+    "isBaseRuleset": true,
+    "uniques":[
         "Can convert gold to science with sliders",
         "Allow City States to spawn with additional units",
-        "Can trade civilization introductions for [100] Gold",
-        "Allow raze capital",
-        "Allow raze holy city"
+        "Can trade civilization introductions for [100] Gold"
     ],
-    constants:{
-        maxXPfromBarbarians: 100000000,
-        cityStrengthBase: 1,
-        cityStrengthPerPop: 0.1,
-        cityStrengthFromTechsMultiplier: 0,
-        unitUpgradeCost:{
-
-        },
-        ancientRuinCountMultiplier: 0.02
-    }
-}
+    "constants":{
+        "maxXPfromBarbarians": 100000000,
+        "cityStrengthBase": 1,
+        "cityStrengthPerPop": 0.1,
+        "cityStrengthFromTechsMultiplier": 0,
+        "unitUpgradeCost":{}
+    },
+    "ancientRuinCountMultiplier": 0.02
+  }
+]
