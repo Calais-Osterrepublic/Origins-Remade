@@ -29,7 +29,7 @@
                     "Tribal Organisation"
                 ],
                 "uniques":[
-                    "[+2 Food] from every [Gatherer]"
+                
                 ]
             },
             {
@@ -51,7 +51,7 @@
                     "Tribal Organisation"
                 ],
                 "uniques":[
-                    "[+1 Culture] from every [Chieftain]"
+                
                 ]
             }
         ]
@@ -70,7 +70,7 @@
                     "Gathering"
                 ],
                 "uniques":[
-                    "[+1] Movement <for [Hunters] units>"
+                
                 ]
             },
             {
@@ -81,7 +81,7 @@
                     "Primitive Tools"
                 ],
                 "uniques":[
-                    "[+20]% Strength <for [Hunters] units> <vs [Animal] units>"
+                
                 ]
             },
             {
@@ -165,7 +165,7 @@
                     "Tribal Organisation"
                 ],
                 "uniques":[
-                    "[+1 Gold] from every [Chieftain]"
+                    
                 ]
             },
             {
@@ -209,7 +209,7 @@
                     "Rituals"
                 ],
                 "uniques":[
-                    "Only available <after adopting [Mysticism]>"
+                
                 ]
             }
         ]
