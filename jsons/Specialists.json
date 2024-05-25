@@ -16,6 +16,11 @@
         "greatPersonPoints":{
             "Tribe":1
         },
-        "color":[255,255,20]
-    }
+        "color":[20, 20, 255]
+    },
+    {
+        "name":"Chieftain",
+        "culture":1,
+        "color":[255, 255, 20]
+    },
 ]
