@@ -1,54 +1,129 @@
 [
     {
-        "name":"Adaptation",
+        "name":"Sustainability",
         "era":"Primeval Era",
         "priorities":{
             "Neutral":30,
-            "Cultural":10,
+            "Cultural":20,
             "Diplomatic":10,
             "Domination":10,
-            "Scientific":10
+            "Scientific":20
         },
         "uniques":[],
         "policies":[
             {
-                "name":"Adaptation Complete",
+				"name": "Herbalism",
+				"uniques": [],
+				"row": 1,
+				"column": 1
+			},
+            {
+				"name": "Surveying",
+				"uniques": [],
+				"row": 1,
+				"column": 3
+			},
+            {
+				"name": "Familial Pacts",
+				"uniques": [],
+				"row": 1,
+				"column": 5
+			},
+            {
+				"name": "Oral Record",
+                "requires": ["Herbalism", "Surveying", "Familial Pacts"],
+				"uniques": [],
+				"row": 2,
+				"column": 2
+			},
+            {
+				"name": "Specialization",
+                "requires": ["Surveying", "Familial Pacts"],
+                "requires": ["Herbalism"],
+				"uniques": [],
+				"row": 2,
+				"column": 4
+			},
+            {
+				"name": "Botanical Study",
+				"uniques": [],
+                "requires": ["Herbalism", "Oral Record", "Specialization"],
+				"row": 3,
+				"column": 1
+			},
+            {
+				"name": "Classification",
+				"uniques": [],
+                "requires": ["Oral Record", "Specialization"],
+				"row": 3,
+				"column": 1
+			},
+            {
+                "name":"Sustainability Complete",
                 "uniques":[]
             }
         ]
     },
     {
-        "name":"Materialism",
+        "name":"Territorialism",
         "era":"Primeval Era",
         "priorities":{
             "Neutral":30,
             "Cultural":10,
             "Diplomatic":10,
-            "Domination":10,
+            "Domination":30,
             "Scientific":10
         },
         "uniques":[],
         "policies":[
             {
-                "name":"Materialism Complete",
-                "uniques":[]
-            }
-        ]
-    },
-    {
-        "name":"Mysticism",
-        "era":"Primeval Era",
-        "priorities":{
-            "Neutral":30,
-            "Cultural":10,
-            "Diplomatic":10,
-            "Domination":10,
-            "Scientific":10
-        },
-        "uniques":[],
-        "policies":[
+				"name": "Scouting",
+				"uniques": [],
+				"row": 1,
+				"column": 1
+			},
             {
-                "name":"Mysticism Complete",
+				"name": "Rigorous Training",
+				"uniques": [],
+				"row": 1,
+				"column": 3
+			},
+            {
+				"name": "Tribal Unity",
+				"uniques": [],
+				"row": 1,
+				"column": 5
+			},
+            {
+				"name": "Patrol Teams",
+                "requires": ["Scouting", "Rigorous Training"],
+				"uniques": [],
+				"row": 2,
+				"column": 1
+			},
+            {
+				"name": "Martial Doctrine",
+				"uniques": [],
+                "requires": ["Rigorous Training", "Tribal Unity"],
+				"row": 2,
+				"column": 3
+			},
+            {
+				"name": "Occupational Identity",
+				"uniques": [],
+                "requires": ["Rigorous Training", "Tribal Unity"],
+				"row": 2,
+				"column": 5
+			},
+            {
+				"name": "Warrior's Creed",
+				"uniques": [],
+                "requires": ["Martial Doctine", "Occupational Identity"],
+				"row": 3,
+				"column": 3
+			},
+            {
+                "name":"Territorialism Complete",
                 "uniques":[]
             }
         ]
