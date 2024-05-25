@@ -9,14 +9,10 @@
         "color":[20,255,20]
     },
     {
-        "name":"Chieftain",
+        "name":"Elder",
         "greatPersonPoints":{
             "Tribe":1
         },
         "color":[255,255,20]
-    },
-    {
-        "name":"Elder",
-        "color":[20,20,255]
     }
 ]
