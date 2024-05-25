@@ -1,308 +1,305 @@
 [
-	//
-	//	Primeval era
-	//
-    {	//	Tribal Organisation
-        "columnNumber": 0,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Tribal Organisation",
-				"row": 1,
-				"quote": "",
-				"uniques": [
-					"Starting tech"
-				]
-			}
-		]
+    {
+        "columnNumber":0,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Tribal Organisation",
+                "row":1,
+                "quote":"",
+                "uniques":[
+                    "Starting tech"
+                ]
+            }
+        ]
     },
-	{	//	Gathering
-		"columnNumber": 1,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Gathering",
-				"row": 3,
-				"quote": "",
-				"prerequisites": [
-					"Tribal Organisation"
-				],
-				"uniques": [
-					"[+2 Food] from every [Gatherer]"
-				]
-			}
-		]
-	},
-	{	//	Primitive Tools
-		"columnNumber": 1,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Primitive Tools",
-				"row": 5,
-				"quote": "",
-				"prerequisites": [
-					"Tribal Organisation"
-				],
-				"uniques": [
-
-				]
-			}
-		]
-	},
-	{	//	Wisdom Accumulation
-		"columnNumber": 1,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Wisdom Accumulation",
-				"row": 7,
-				"quote": "",
-				"prerequisites": [
-					"Tribal Organisation"
-				],
-				"uniques": [
-					"[+1 Culture] from every [Chieftain]"
-				]
-			}
-		]
-	},
-	{	//	Exploring
-		"columnNumber": 2,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Exploring",
-				"row": 3,
-				"quote": "",
-				"prerequisites": [
-					"Gathering"
-				],
-				"uniques": [
-					"[+1] Movement <for [Hunters] units>"
-				]
-			}
-		]
-	},
-	{	//	Primitive Hunting Weapons
-		"columnNumber": 2,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Primitive Hunting Weapons",
-				"row": 4,
-				"quote": "",
-				"prerequisites": [
-					"Primitive Tools"
-				],
-				"uniques": [
-					"[+20]% Strength <for [Hunters] units> <vs [Animal] units>"
-				]
-			}
-		]
-	},
-	{	//	Crafting Skills
-		"columnNumber": 2,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Crafting Skills",
-				"row": 6,
-				"quote": "",
-				"prerequisites": [
-					"Primitive Tools",
-					"Wisdom Accumulation"
-				],
-				"uniques": [
-
-				]
-			}
-		]
-	},
-	{	//	Spiritual Guidance
-		"columnNumber": 2,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Spiritual Guidance",
-				"row": 7,
-				"quote": "",
-				"prerequisites": [
-					"Wisdom Accumulation"
-				],
-				"uniques": [
-
-				]
-			}
-		]
-	},
-	{	//	Primitive Hierarchy
-		"columnNumber": 4,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Primitive Hierarchy",
-				"row": 1,
-				"quote": "",
-				"prerequisites": [
-					"Tribal Organisation"
-				],
-				"uniques": [
-					"[+1 Gold] from every [Chieftain]"
-				]
-			}
-		]
-	},
-	{	//	Animal study
-		"columnNumber": 3,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Animal study",
-				"row": 4,
-				"quote": "",
-				"prerequisites": [
-					"Primitive Hunting Weapons"
-				],
-				"uniques": [
-
-				]
-			}
-		]
-	},
-	{	//	Craftsmanship
-		"columnNumber": 3,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Craftsmanship",
-				"row": 5,
-				"quote": "",
-				"prerequisites": [
-					"Crafting Skills"
-				],
-				"uniques": [
-
-				]
-			}
-		]
-	},
-	{	//	Rituals
-		"columnNumber": 3,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Rituals",
-				"row": 7,
-				"quote": "",
-				"prerequisites": [
-					"Spiritual Guidance",
-					"Crafting Skills"
-				],
-				"uniques": [
-
-				]
-			}
-		]
-	},
-	{	//	Animal Taming
-		"columnNumber": 4,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Animal Taming",
-				"row": 4,
-				"quote": "",
-				"prerequisites": [
-					"Animal study"
-				],
-				"uniques": [
-
-				]
-			}
-		]
-	},
-	{	//	Division of Labor
-		"columnNumber": 4,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Division of Labor",
-				"row": 5,
-				"quote": "",
-				"prerequisites": [
-					"Craftsmanship"
-				],
-				"uniques": [
-
-				]
-			}
-		]
-	},
-	{	//	Belief
-		"columnNumber": 4,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Belief",
-				"row": 7,
-				"quote": "",
-				"prerequisites": [
-					"Rituals"
-				],
-				"uniques": [
-
-				]
-			}
-		]
-	},
-	{	//	Spiritual Contacts
-		"columnNumber": 4,
-		"era": "Primeval Era",
-		"techCost": 100,
-		"buildingCost": 100,
-		"techs": [
-			{
-				"name": "Spiritual Contacts",
-				"row": 8,
-				"quote": "",
-				"prerequisites": [
-					"Rituals"
-				],
-				"uniques": [
-					"Only available <after adopting [Mysticism]>"
-				]
-			}
-		]
-	}
+    {
+        "columnNumber":1,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Gathering",
+                "row":3,
+                "quote":"",
+                "prerequisites":[
+                    "Tribal Organisation"
+                ],
+                "uniques":[
+                    "[+2 Food] from every [Gatherer]"
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":1,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Primitive Tools",
+                "row":5,
+                "quote":"",
+                "prerequisites":[
+                    "Tribal Organisation"
+                ],
+                "uniques":[
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":1,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Wisdom Accumulation",
+                "row":7,
+                "quote":"",
+                "prerequisites":[
+                    "Tribal Organisation"
+                ],
+                "uniques":[
+                    "[+1 Culture] from every [Chieftain]"
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":2,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Exploring",
+                "row":3,
+                "quote":"",
+                "prerequisites":[
+                    "Gathering"
+                ],
+                "uniques":[
+                    "[+1] Movement <for [Hunters] units>"
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":2,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Primitive Hunting Weapons",
+                "row":4,
+                "quote":"",
+                "prerequisites":[
+                    "Primitive Tools"
+                ],
+                "uniques":[
+                    "[+20]% Strength <for [Hunters] units> <vs [Animal] units>"
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":2,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Crafting Skills",
+                "row":6,
+                "quote":"",
+                "prerequisites":[
+                    "Primitive Tools",
+                    "Wisdom Accumulation"
+                ],
+                "uniques":[
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":2,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Spiritual Guidance",
+                "row":7,
+                "quote":"",
+                "prerequisites":[
+                    "Wisdom Accumulation"
+                ],
+                "uniques":[
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":4,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Primitive Hierarchy",
+                "row":1,
+                "quote":"",
+                "prerequisites":[
+                    "Tribal Organisation"
+                ],
+                "uniques":[
+                    "[+1 Gold] from every [Chieftain]"
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":3,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Animal study",
+                "row":4,
+                "quote":"",
+                "prerequisites":[
+                    "Primitive Hunting Weapons"
+                ],
+                "uniques":[
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":3,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Craftsmanship",
+                "row":5,
+                "quote":"",
+                "prerequisites":[
+                    "Crafting Skills"
+                ],
+                "uniques":[
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":3,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Rituals",
+                "row":7,
+                "quote":"",
+                "prerequisites":[
+                    "Spiritual Guidance",
+                    "Crafting Skills"
+                ],
+                "uniques":[
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":4,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Animal Taming",
+                "row":4,
+                "quote":"",
+                "prerequisites":[
+                    "Animal study"
+                ],
+                "uniques":[
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":4,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Division of Labor",
+                "row":5,
+                "quote":"",
+                "prerequisites":[
+                    "Craftsmanship"
+                ],
+                "uniques":[
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":4,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Belief",
+                "row":7,
+                "quote":"",
+                "prerequisites":[
+                    "Rituals"
+                ],
+                "uniques":[
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":4,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Spiritual Contacts",
+                "row":8,
+                "quote":"",
+                "prerequisites":[
+                    "Rituals"
+                ],
+                "uniques":[
+                    "Only available <after adopting [Mysticism]>"
+                ]
+            }
+        ]
+    }
 ]
