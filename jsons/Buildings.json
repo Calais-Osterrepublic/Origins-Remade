@@ -12,6 +12,7 @@
     {
         "name":"Hunters Lodge",
         "maintenance":0,
+        "specialistSlots": { "Hunter": 1 },
         "uniques":[
             "[+1 Food] from every [Hunter]",
             "[+1 Production] from every [Hunter]"
@@ -21,8 +22,10 @@
     {
         "name":"Gatherers Lodge",
         "maintenance":0,
+        "specialistSlots": { "Gatherer": 1 },
         "uniques":[
-            
+            "[+1 Food] from every [Gatherer]",
+            "[+1 Gold] from every [Gatherer]"
         ],
         "requiredTech":"Gathering"
     }
