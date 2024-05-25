@@ -6,10 +6,13 @@
     },
     {
         "name":"Gatherer",
+        "food":1,
+        "culture":1,
         "color":[20,255,20]
     },
     {
         "name":"Elder",
+        "culture":1,
         "greatPersonPoints":{
             "Tribe":1
         },
