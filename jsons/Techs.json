@@ -31,15 +31,7 @@
                 "uniques":[
                     "[+2 Food] from every [Gatherer]"
                 ]
-            }
-        ]
-    },
-    {
-        "columnNumber":1,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
+            },
             {
                 "name":"Primitive Tools",
                 "row":5,
@@ -50,15 +42,7 @@
                 "uniques":[
                     
                 ]
-            }
-        ]
-    },
-    {
-        "columnNumber":1,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
+            },
             {
                 "name":"Wisdom Accumulation",
                 "row":7,
@@ -88,15 +72,7 @@
                 "uniques":[
                     "[+1] Movement <for [Hunters] units>"
                 ]
-            }
-        ]
-    },
-    {
-        "columnNumber":2,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
+            },
             {
                 "name":"Primitive Hunting Weapons",
                 "row":4,
@@ -107,15 +83,7 @@
                 "uniques":[
                     "[+20]% Strength <for [Hunters] units> <vs [Animal] units>"
                 ]
-            }
-        ]
-    },
-    {
-        "columnNumber":2,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
+            },
             {
                 "name":"Crafting Skills",
                 "row":6,
@@ -127,21 +95,55 @@
                 "uniques":[
                     
                 ]
-            }
-        ]
-    },
-    {
-        "columnNumber":2,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
+            },
             {
                 "name":"Spiritual Guidance",
                 "row":7,
                 "quote":"",
                 "prerequisites":[
                     "Wisdom Accumulation"
+                ],
+                "uniques":[
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber":3,
+        "era":"Primeval Era",
+        "techCost":100,
+        "buildingCost":100,
+        "techs":[
+            {
+                "name":"Animal study",
+                "row":4,
+                "quote":"",
+                "prerequisites":[
+                    "Primitive Hunting Weapons"
+                ],
+                "uniques":[
+                    
+                ]
+            },
+            {
+                "name":"Craftsmanship",
+                "row":5,
+                "quote":"",
+                "prerequisites":[
+                    "Crafting Skills"
+                ],
+                "uniques":[
+                    
+                ]
+            },
+            {
+                "name":"Rituals",
+                "row":7,
+                "quote":"",
+                "prerequisites":[
+                    "Spiritual Guidance",
+                    "Crafting Skills"
                 ],
                 "uniques":[
                     
@@ -165,73 +167,7 @@
                 "uniques":[
                     "[+1 Gold] from every [Chieftain]"
                 ]
-            }
-        ]
-    },
-    {
-        "columnNumber":3,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
-            {
-                "name":"Animal study",
-                "row":4,
-                "quote":"",
-                "prerequisites":[
-                    "Primitive Hunting Weapons"
-                ],
-                "uniques":[
-                    
-                ]
-            }
-        ]
-    },
-    {
-        "columnNumber":3,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
-            {
-                "name":"Craftsmanship",
-                "row":5,
-                "quote":"",
-                "prerequisites":[
-                    "Crafting Skills"
-                ],
-                "uniques":[
-                    
-                ]
-            }
-        ]
-    },
-    {
-        "columnNumber":3,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
-            {
-                "name":"Rituals",
-                "row":7,
-                "quote":"",
-                "prerequisites":[
-                    "Spiritual Guidance",
-                    "Crafting Skills"
-                ],
-                "uniques":[
-                    
-                ]
-            }
-        ]
-    },
-    {
-        "columnNumber":4,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
+            },
             {
                 "name":"Animal Taming",
                 "row":4,
@@ -242,15 +178,7 @@
                 "uniques":[
                     
                 ]
-            }
-        ]
-    },
-    {
-        "columnNumber":4,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
+            },
             {
                 "name":"Division of Labor",
                 "row":5,
@@ -261,15 +189,7 @@
                 "uniques":[
                     
                 ]
-            }
-        ]
-    },
-    {
-        "columnNumber":4,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
+            },
             {
                 "name":"Belief",
                 "row":7,
@@ -280,15 +200,7 @@
                 "uniques":[
                     
                 ]
-            }
-        ]
-    },
-    {
-        "columnNumber":4,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
+            },
             {
                 "name":"Spiritual Contacts",
                 "row":8,
