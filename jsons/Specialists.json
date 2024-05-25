@@ -1,20 +1,22 @@
 [
-	{
-		"name": "Hunter",
-		"food": 2,
-		"color": [255, 20, 20]
-	},
-	{
-		"name": "Gatherer",
-        "color": [20, 255, 20]
-	},
-	{
-		"name": "Chieftain",
-        "greatPersonPoints": { "Tribe": 1 },
-        "color": [255, 255, 20]
-	},
-	{
-		"name": "Elder",
-        "color": [20, 20, 255]
-	}
+    {
+        "name":"Hunter",
+        "food":2,
+        "color":[255,20,20]
+    },
+    {
+        "name":"Gatherer",
+        "color":[20,255,20]
+    },
+    {
+        "name":"Chieftain",
+        "greatPersonPoints":{
+            "Tribe":1
+        },
+        "color":[255,255,20]
+    },
+    {
+        "name":"Elder",
+        "color":[20,20,255]
+    }
 ]
