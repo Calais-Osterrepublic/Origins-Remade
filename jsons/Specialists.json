@@ -2,7 +2,7 @@
 	{
 		"name": "Hunter",
 		"food": 2,
-        "color": [255, 20, 20]
+		"color": [255, 20, 20]
 	},
 	{
 		"name": "Gatherer",
