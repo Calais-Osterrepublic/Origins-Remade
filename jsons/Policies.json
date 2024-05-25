@@ -63,18 +63,6 @@
                 "column":4
             },
             {
-                "name":"Classification",
-                "uniques":[
-                    
-                ],
-                "requires":[
-                    "Oral Record",
-                    "Specialization"
-                ],
-                "row":3,
-                "column":1
-            },
-            {
                 "name":"Botany",
                 "uniques":[
                     
@@ -83,6 +71,18 @@
                     "Herbalism",
                     "Specialization",
                     "Oral Record"
+                ],
+                "row":3,
+                "column":1
+            },
+            {
+                "name":"Classification",
+                "uniques":[
+                    
+                ],
+                "requires":[
+                    "Oral Record",
+                    "Specialization"
                 ],
                 "row":3,
                 "column":5
