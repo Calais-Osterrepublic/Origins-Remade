@@ -10,13 +10,13 @@
             "Scientific":20
         },
         "uniques":[
-            
+            "[+3 Culture] [in capital]"
         ],
         "policies":[
             {
                 "name":"Herbalism",
                 "uniques":[
-                    
+                    "[+1 Food] from every [Forest]"
                 ],
                 "row":1,
                 "column":1
@@ -24,7 +24,7 @@
             {
                 "name":"Surveying",
                 "uniques":[
-                    
+                    "[-20]% Culture cost of natural border growth [in all cities]"
                 ],
                 "row":1,
                 "column":3
@@ -32,7 +32,7 @@
             {
                 "name":"Familial Pacts",
                 "uniques":[
-                    
+                    "[-15]% Unhappiness from [Population] [in capital]"
                 ],
                 "row":1,
                 "column":5
@@ -45,7 +45,7 @@
                     "Familial Pacts"
                 ],
                 "uniques":[
-                    
+                    "[+1 Science] from all [Culture] buildings"
                 ],
                 "row":2,
                 "column":2
@@ -57,7 +57,7 @@
                     "Familial Pacts"
                 ],
                 "uniques":[
-                    
+                    "[+1 Production, +1 Culture] from every specialist [in capital]"
                 ],
                 "row":2,
                 "column":4
@@ -106,7 +106,7 @@
             "Scientific":10
         },
         "uniques":[
-            
+            "Earn [33]% of killed [Military] unit's [Cost] as [Culture]"
         ],
         "policies":[
             {
