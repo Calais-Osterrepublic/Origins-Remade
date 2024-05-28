@@ -17,7 +17,7 @@
             "[+1 Food] from every [Hunter]",
             "[+1 Production] from every [Hunter]"
         ],
-        "requiredTech":"Primitive Hunting Weapons"
+        "requiredTech":"Hunting"
     },
     {
         "name":"Gatherers Lodge",
