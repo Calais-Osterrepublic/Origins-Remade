@@ -6,7 +6,7 @@
         "buildingCost":100,
         "techs":[
             {
-                "name":"Tribal Organisation",
+                "name":"Dawn of the Tribes",
                 "row":5,
                 "quote":"",
                 "uniques":[
@@ -26,7 +26,7 @@
                 "row":3,
                 "quote":"",
                 "prerequisites":[
-                    "Tribal Organisation"
+                    "Dawn of the Tribes"
                 ],
                 "uniques":[
                 
@@ -37,18 +37,18 @@
                 "row":5,
                 "quote":"",
                 "prerequisites":[
-                    "Tribal Organisation"
+                    "Dawn of the Tribes"
                 ],
                 "uniques":[
                     
                 ]
             },
             {
-                "name":"Wisdom Accumulation",
+                "name":"Hunting",
                 "row":7,
                 "quote":"",
                 "prerequisites":[
-                    "Tribal Organisation"
+                    "Dawn of the Tribes"
                 ],
                 "uniques":[
                 
@@ -63,7 +63,7 @@
         "buildingCost":100,
         "techs":[
             {
-                "name":"Exploring",
+                "name":"Differentiation",
                 "row":3,
                 "quote":"",
                 "prerequisites":[
@@ -74,139 +74,12 @@
                 ]
             },
             {
-                "name":"Primitive Hunting Weapons",
+                "name":"Warbands",
                 "row":4,
-                "quote":"",
-                "prerequisites":[
-                    "Primitive Tools"
-                ],
-                "uniques":[
-                
-                ]
-            },
-            {
-                "name":"Crafting Skills",
-                "row":6,
                 "quote":"",
                 "prerequisites":[
                     "Primitive Tools",
-                    "Wisdom Accumulation"
-                ],
-                "uniques":[
-                    
-                ]
-            },
-            {
-                "name":"Spiritual Guidance",
-                "row":7,
-                "quote":"",
-                "prerequisites":[
-                    "Wisdom Accumulation"
-                ],
-                "uniques":[
-                    
-                ]
-            }
-        ]
-    },
-    {
-        "columnNumber":3,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
-            {
-                "name":"Animal study",
-                "row":4,
-                "quote":"",
-                "prerequisites":[
-                    "Primitive Hunting Weapons"
-                ],
-                "uniques":[
-                    
-                ]
-            },
-            {
-                "name":"Craftsmanship",
-                "row":5,
-                "quote":"",
-                "prerequisites":[
-                    "Crafting Skills"
-                ],
-                "uniques":[
-                    
-                ]
-            },
-            {
-                "name":"Rituals",
-                "row":7,
-                "quote":"",
-                "prerequisites":[
-                    "Spiritual Guidance",
-                    "Crafting Skills"
-                ],
-                "uniques":[
-                    
-                ]
-            }
-        ]
-    },
-    {
-        "columnNumber":4,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "techs":[
-            {
-                "name":"Primitive Hierarchy",
-                "row":1,
-                "quote":"",
-                "prerequisites":[
-                    "Tribal Organisation"
-                ],
-                "uniques":[
-                    
-                ]
-            },
-            {
-                "name":"Animal Taming",
-                "row":4,
-                "quote":"",
-                "prerequisites":[
-                    "Animal study"
-                ],
-                "uniques":[
-                    
-                ]
-            },
-            {
-                "name":"Division of Labor",
-                "row":5,
-                "quote":"",
-                "prerequisites":[
-                    "Craftsmanship"
-                ],
-                "uniques":[
-                    
-                ]
-            },
-            {
-                "name":"Belief",
-                "row":7,
-                "quote":"",
-                "prerequisites":[
-                    "Rituals"
-                ],
-                "uniques":[
-                    
-                ]
-            },
-            {
-                "name":"Spiritual Contacts",
-                "row":8,
-                "quote":"",
-                "prerequisites":[
-                    "Rituals"
+                    "Hunting"
                 ],
                 "uniques":[
                 
