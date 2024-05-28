@@ -9,7 +9,7 @@
         ],
         "food":1,
         "turnsToBuild":10,
-        "techRequired":"Tribal Organisation",
+        "techRequired":"Hunting",
         "uniques":[
             "Can only be built to improve a resource"
         ],
