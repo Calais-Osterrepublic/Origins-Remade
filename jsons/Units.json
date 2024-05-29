@@ -1,7 +1,7 @@
 [
     {
         "name":"Tribe",
-		"unitType":"Civilian",
+	"unitType":"Civilian",
         "movement":1,
         "uniques":[
             "Founds a new city <by consuming this unit>",
