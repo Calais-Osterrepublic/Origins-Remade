@@ -12,7 +12,8 @@
 		]
 	},
 	{
-		"name":"Tribesmen",
+		"name":"Tribesworkers",
+		"requiredTech": "Gathering",
 		"unitType":"Civilian",
 		"movement":1,
 		"uniques":[
@@ -22,12 +23,23 @@
 	},
 	{
 		"name":"Hunters",
+		"requiredTech": "Hunting",
 		"unitType":"Melee Infantry",
 		"movement":1,
 		"strength":8,
-		"cost":100,
 		"uniques":[
 			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name":"Scout",
+		"unitType":"Melee Infantry",
+		"requiredTech": "Differentiation",
+		"movement":2,
+		"strength":4,
+		"uniques":[
+			"Never appears as a Barbarian unit",
+			"Invisible to non-adjacent units <when above [90] HP>"
 		]
 	},
 	{
