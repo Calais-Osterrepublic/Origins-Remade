@@ -5,7 +5,7 @@
     {	//	Wild animals
 		"name": "Wild animals",
 		"resourceType": "Bonus",
-		"revealedBy": "Tribal Organisation",
+		"revealedBy": "Dawn of the Tribes",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",
