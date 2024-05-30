@@ -36,7 +36,6 @@
 		"name":"Scout",
 		"unitType":"Melee Infantry",
 		"cost":25,
-		"requiredTech": "Differentiation",
 		"movement":2,
 		"strength":4,
 		"uniques":[
