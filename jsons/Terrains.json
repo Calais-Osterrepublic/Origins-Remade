@@ -100,7 +100,7 @@
 		],
 		"uniques":[
 			"Occurs at temperature between [0.7] and [1] and humidity between [0] and [1]",
-			"Considered [Food] when determining start locations",
+			"Considered [Undesirable] when determining start locations",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
