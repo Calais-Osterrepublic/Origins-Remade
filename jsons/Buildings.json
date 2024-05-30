@@ -1,32 +1,39 @@
 [
-    {
-        "name":"Tribe Center",
-        "maintenance":0,
-        "isNationalWonder":true,
-        "specialistSlots": { "Chieftain": 1 },
-        "cost":1,
-        "uniques":[
-            "Indicates the capital city"
-        ]
-    },
-    {
-        "name":"Hunters Lodge",
-        "maintenance":0,
-        "specialistSlots": { "Hunter": 1 },
-        "uniques":[
-            "[+1 Food] from every [Hunter]",
-            "[+1 Production] from every [Hunter]"
-        ],
-        "requiredTech":"Hunting"
-    },
-    {
-        "name":"Gatherers Lodge",
-        "maintenance":0,
-        "specialistSlots": { "Gatherer": 1 },
-        "uniques":[
-            "[+1 Food] from every [Gatherer]",
-            "[+1 Gold] from every [Gatherer]"
-        ],
-        "requiredTech":"Gathering"
-    }
+	{
+		"name":"Tribe Center",
+		"maintenance":0,
+		"isNationalWonder":true,
+		"specialistSlots":{
+			"Chieftain":1
+		},
+		"cost":1,
+		"uniques":[
+			"Indicates the capital city"
+		]
+	},
+	{
+		"name":"Hunters Lodge",
+		"maintenance":0,
+		"cost":50,
+		"specialistSlots":{
+			"Hunter":1
+		},
+		"uniques":[
+			"New [Military] units start with [15] Experience [in this city]"
+		],
+		"requiredTech":"Hunting"
+	},
+	{
+		"name":"Gatherers Lodge",
+		"maintenance":0,
+		"cost":100,
+		"specialistSlots":{
+			"Gatherer":1
+		},
+		"uniques":[
+			"[+1 Food, +1 Production] per every [10] [Gold]",
+			"Comment [MUST BE CHANGED IN THE FUTURE OR ELSE BALANCE WILL BE LOST!]"
+		],
+		"requiredTech":"Gathering"
+	}
 ]
