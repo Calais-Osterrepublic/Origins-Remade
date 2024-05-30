@@ -6,7 +6,7 @@
 		"startingSettlerUnit": "Tribe",
 		"startingWorkerCount": 0,
 		"startingMilitaryUnitCount": 1,
-		"startingMilitaryUnit": "Hunters",
+		"startingMilitaryUnit": "Scout",
 		"settlerPopulation": 1,
 		"startPercent": 0,
 		"citySound": "cityAncient",
