@@ -19,14 +19,14 @@
     {
         "columnNumber":1,
         "era":"Primeval Era",
-        "techCost":100,
+        "techCost":50,
         "buildingCost":100,
         "wonderCost":100,
         "techs":[
             {
                 "name":"Gathering",
                 "row":3,
-                "cost":10
+                "cost":30
                 "quote":"",
                 "prerequisites":[
                     "Dawn of the Tribes"
@@ -38,7 +38,7 @@
             {
                 "name":"Primitive Tools",
                 "row":5,
-                "cost":15
+                "cost":20
                 "quote":"",
                 "prerequisites":[
                     "Dawn of the Tribes"
@@ -50,7 +50,7 @@
             {
                 "name":"Hunting",
                 "row":7,
-                "cost":10
+                "cost":30
                 "quote":"",
                 "prerequisites":[
                     "Dawn of the Tribes"
@@ -64,7 +64,7 @@
     {
         "columnNumber":2,
         "era":"Primeval Era",
-        "techCost":25,
+        "techCost":50,
         "wonderCost":100,
         "buildingCost":100,
         "techs":[
