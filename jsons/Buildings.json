@@ -12,28 +12,67 @@
 		]
 	},
 	{
-		"name":"Hunters Lodge",
-		"maintenance":0,
-		"cost":50,
-		"specialistSlots":{
-			"Hunter":1
-		},
-		"uniques":[
-			"New [Military] units start with [15] Experience [in this city]"
+		"name": "Woven Huts",
+		"uniques": [
+			"[+10]% growth [in this city]",
+			"[+1 Production] from [Jungle] tiles [in this city]",
+			"Only available <with [3] to [6] neighboring [Jungle] tiles>"
 		],
-		"requiredTech":"Hunting"
+		"requiredTech": "Primitive Tools",
+		"cost": 40
 	},
 	{
-		"name":"Gatherers Lodge",
-		"maintenance":0,
-		"cost":100,
-		"specialistSlots":{
-			"Gatherer":1
-		},
-		"uniques":[
-			"[+1 Food, +1 Production] per every [10] [Gold]",
-			"Comment [MUST BE CHANGED IN THE FUTURE OR ELSE BALANCE WILL BE LOST!]"
+		"name": "Stick Shelters",
+		"uniques": [
+			"[+5]% growth [in this city]",
+			"[+1 Production] from [Forest] tiles [in this city]",
+			"Only available <with [3] to [6] neighboring [Forest] tiles>"
 		],
-		"requiredTech":"Gathering"
+		"requiredTech": "Primitive Tools",
+		"cost": 20
+	},
+	{
+		"name": "Mud Huts",
+		"uniques": [
+			"[+20]% growth [in this city]",
+			"Only available <in [River] tiles>"
+		],
+		"requiredTech": "Primitive Tools",
+		"cost": 60
+	},
+	{
+		"name": "Fur Shelters",
+		"happiness":2,
+		"uniques": [
+			"[+1 Production] from [Wild animals] tiles [in this city]",
+			"Must have an owned [Wild animals] within [2] tiles"
+		],
+		"requiredTech": "Primitive Tools",
+		"cost": 20
+	},
+	{
+		"name": "Elder's Hut",
+		"happiness":1,
+		"culture":1,
+		"specialistSlots":{
+			"Elder":1
+		},
+		"percentStatBonus": {
+			"food": -10,
+			"culture": 10
+		},
+		"requiredTech": "Primitive Tools",
+		"cost": 20
+	},
+	{
+		"name": "Shaman's Hut",
+		"specialistSlots":{
+			"Shaman":1
+		},
+		"uniques": [
+			"Only available <after adopting [Botany]>"
+		],
+		"requiredTech": "Primitive Tools",
+		"cost": 20
 	}
 ]
