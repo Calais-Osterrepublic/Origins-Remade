@@ -19,11 +19,12 @@
 		"uniques":[
 			"Can build [Land] improvements on tiles"
 		],
-		"cost":100
+		"cost":25
 	},
 	{
 		"name":"Hunters",
 		"requiredTech": "Hunting",
+		"cost":50,
 		"unitType":"Melee Infantry",
 		"movement":1,
 		"strength":8,
@@ -34,6 +35,7 @@
 	{
 		"name":"Scout",
 		"unitType":"Melee Infantry",
+		"cost":25,
 		"requiredTech": "Differentiation",
 		"movement":2,
 		"strength":4,
