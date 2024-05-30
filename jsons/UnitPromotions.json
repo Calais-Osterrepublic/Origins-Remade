@@ -1,49 +1,154 @@
 [
 	{
-		"name": "Experianced",
-		"uniques": [
-			"[+10]% Strength"
+		"name":"Recovery",
+		"uniques":[
+			"Unit will heal every turn, even if it performs an action <for [5] turns>",
+			"All healing effects doubled <for [5] turns>",
+			"[-10]% Strength <for [5] turns>",
+			"Doing so will consume this opportunity to choose a Promotion"
 		],
-		"unitTypes": [
+		"unitTypes":[
 			"Melee Infantry"
 		],
-		"row": 0,
-        "column": 0
+		"row":0,
+		"column":0
 	},
 	{
-		"name": "Veteran",
-		"prerequisites": ["Experianced"],
-		"uniques": [
-			"[+10]% Strength"
+		"name":"Shaman Escort",
+		"uniques":[
+			"[+5] HP when healing",
+			"All adjacent units heal [+5] HP when healing"
 		],
-		"unitTypes": [
-			"Melee Infantry"
-		],
-		"row": 0,
-        "column": 1
+		"row":0,
+		"column":1
 	},
 	{
-		"name": "Master",
-		"prerequisites": ["Veteran"],
-		"uniques": [
-			"[+10]% Strength"
+		"name":"Shock I",
+		"uniques":[
+			"[+33]% Strength <when fighting in [Open terrain] tiles>"
 		],
-		"unitTypes": [
+		"unitTypes":[
 			"Melee Infantry"
 		],
-		"row": 0,
-        "column": 2
+		"column":1,
+		"row":1
 	},
 	{
-		"name": "Guru",
-		"prerequisites": ["Master"],
-		"uniques": [
-			"[+10]% Strength"
+		"name":"Shock II",
+		"prerequisites":[
+			"Shock I"
 		],
-		"unitTypes": [
+		"uniques":[
+			"[+33]% Strength <when fighting in [Open terrain] tiles>"
+		],
+		"unitTypes":[
 			"Melee Infantry"
 		],
-		"row": 0,
-        "column": 3
+		"column":1,
+		"row":2
+	},
+	{
+		"name":"Shock III",
+		"prerequisites":[
+			"Shock II"
+		],
+		"uniques":[
+			"[+33]% Strength <when fighting in [Open terrain] tiles>",
+			"[+1] Movement"
+		],
+		"unitTypes":[
+			"Melee Infantry"
+		],
+		"column":1,
+		"row":3
+	},
+	{
+		"name":"Drill I",
+		"uniques":[
+			"[+33]% Strength <when fighting in [Rough terrain] tiles>"
+		],
+		"unitTypes":[
+			"Melee Infantry"
+		],
+		"column":2,
+		"row":1
+	},
+	{
+		"name":"Drill II",
+		"prerequisites":[
+			"Drill I"
+		],
+		"uniques":[
+			"[+33]% Strength <when fighting in [Rough terrain] tiles>"
+		],
+		"unitTypes":[
+			"Melee Infantry"
+		],
+		"column":2,
+		"row":2
+	},
+	{
+		"name":"Drill III",
+		"prerequisites":[
+			"Drill II"
+		],
+		"uniques":[
+			"[+33]% Strength <when fighting in [Rough terrain] tiles>",
+			"[+33]% Strength <when attacking>"
+		],
+		"unitTypes":[
+			"Melee Infantry"
+		],
+		"column":2,
+		"row":3
+	},
+	{
+		"name":"Ambush",
+		"prerequisites":[
+			"Shock III"
+		],
+		"uniques":[
+			"[-33]% Strength <when defending>",
+			"[+33]% Strength <when attacking>",
+			"Comment [Will be changed once more UnitTypes are introduced] <hidden from users>"
+		],
+		"unitTypes":[
+			"Melee Infantry"
+		],
+		"column":1,
+		"row":4
+	},
+	{
+		"name":"Forage",
+		"prerequisites":[
+			"Shock III",
+			"Drill III"
+		],
+		"uniques":[
+			"Earn [33]% of killed [Military] unit's [Cost] as [Gold]",
+			"[-33]% maintenance costs",
+			"Comment [Will be changed once more UnitTypes are introduced] <hidden from users>"
+		],
+		"unitTypes":[
+			"Melee Infantry"
+		],
+		"column":1,
+		"row":5
+	},
+	{
+		"name":"Entrench",
+		"prerequisites":[
+			"Drill III"
+		],
+		"uniques":[
+			"[+33]% Strength <when defending>",
+			"[-33]% Strength <when attacking>",
+			"Comment [Will be changed once more UnitTypes are introduced] <hidden from users>"
+		],
+		"unitTypes":[
+			"Melee Infantry"
+		],
+		"column":1,
+		"row":6
 	}
 ]
