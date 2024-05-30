@@ -50,6 +50,24 @@
 		"requiredTech": "Primitive Tools",
 		"cost": 20
 	},
+	{	
+		"name": "Hunters Lodge",
+		"maintenance": 0,
+		"specialistSlots":{
+			"Hunter": 1
+		},
+		"requiredTech": "Hunting",
+		"cost": 60
+	},
+	{	
+		"name": "Gatherers Lodge",
+		"maintenance": 0,
+		"specialistSlots":{
+			"Gatherer": 1
+		},
+		"requiredTech": "Gathering",
+		"cost": 60
+	}
 	{
 		"name": "Elder's Hut",
 		"happiness":1,
@@ -61,8 +79,8 @@
 			"food": -10,
 			"culture": 10
 		},
-		"requiredTech": "Primitive Tools",
-		"cost": 20
+		"requiredTech": "Differentiation",
+		"cost": 80
 	},
 	{
 		"name": "Shaman's Hut",
@@ -72,7 +90,7 @@
 		"uniques": [
 			"Only available <after adopting [Botany]>"
 		],
-		"requiredTech": "Primitive Tools",
-		"cost": 20
+		"requiredTech": "Differentiation",
+		"cost": 80
 	}
 ]
