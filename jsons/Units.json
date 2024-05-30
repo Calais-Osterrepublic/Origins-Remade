@@ -12,7 +12,7 @@
 		]
 	},
 	{
-		"name":"Tribesworkers",
+		"name":"Tribesworker",
 		"requiredTech": "Gathering",
 		"unitType":"Civilian",
 		"movement":1,
@@ -22,7 +22,7 @@
 		"cost":25
 	},
 	{
-		"name":"Hunters",
+		"name":"Hunter",
 		"requiredTech": "Hunting",
 		"cost":50,
 		"unitType":"Melee Infantry",
@@ -44,7 +44,7 @@
 		]
 	},
 	{
-		"name":"Wolves",
+		"name":"Wolf",
 		"unitType":"Animal",
 		"uniqueTo":"Barbarians",
 		"movement":2,
@@ -56,7 +56,7 @@
 		]
 	},
 	{
-		"name":"Wildmen",
+		"name":"Wildman",
 		"unitType":"Melee Infantry",
 		"uniqueTo":"Barbarians",
 		"movement":1,
