@@ -93,8 +93,9 @@
 			"Drill II"
 		],
 		"uniques":[
-			"[+33]% Strength <when fighting in [Rough terrain] tiles>",
-			"[+33]% Strength <when attacking>"
+			"[+66]% Strength <when fighting in [Rough terrain] tiles>",
+			"Comment [[+66]% Strength <when fighting in [Rough terrain] tiles>]",
+			"Comment [[+66]% Strength <costs [100] [Prestiege]> <for [1] turns> <when above [100] [Prestiege]>]"
 		],
 		"unitTypes":[
 			"Melee Infantry"
