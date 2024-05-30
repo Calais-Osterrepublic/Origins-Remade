@@ -94,8 +94,6 @@
 		],
 		"uniques":[
 			"[+66]% Strength <when fighting in [Rough terrain] tiles>",
-			"Comment [[+66]% Strength <when fighting in [Rough terrain] tiles>]",
-			"Comment [[+66]% Strength <costs [100] [Prestiege]> <for [1] turns> <when above [100] [Prestiege]>]"
 		],
 		"unitTypes":[
 			"Melee Infantry"
