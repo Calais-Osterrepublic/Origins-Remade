@@ -14,6 +14,7 @@
 	{
 		"name":"Elder",
 		"culture":1,
+		"happiness":1,
 		"food":-1,
 		"greatPersonPoints":{
 			"Tribe":1
@@ -22,9 +23,8 @@
 	},
 	{
 		"name":"Chieftain",
+		"science":1,
 		"culture":1,
-		"happiness":1,
-		"food":-1,
 		"color":[255,255,20]
 	},
 	{
