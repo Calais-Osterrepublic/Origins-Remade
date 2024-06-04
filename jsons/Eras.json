@@ -1,16 +1,130 @@
 [
 	{
 		"name": "Primeval Era",
-		"researchAgreementCost": 150,
+		"researchAgreementCost": 100,
 		"startingSettlerCount": 1,
 		"startingSettlerUnit": "Tribe",
 		"startingWorkerCount": 0,
+		"startingWorkerUnit": "Tribesworker"
 		"startingMilitaryUnitCount": 1,
 		"startingMilitaryUnit": "Scout",
+		"baseUnitBuyCost":200,
 		"settlerPopulation": 1,
 		"startPercent": 0,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [255, 87, 35]
-	}
+		"iconRGB": [149,95,32]
+	},
+	{
+		"name": "Distinction Era",
+		"researchAgreementCost": 100,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Tribe",
+		"startingWorkerCount": 0,
+		"startingWorkerUnit": "Tribesworker"
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Scout",
+		"baseUnitBuyCost":200,
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityAncient",
+		"embarkDefense": 1,
+		"iconRGB": [108,113,86]
+	},
+	{
+		"name": "Internalist Era",
+		"researchAgreementCost": 100,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Tribe",
+		"startingWorkerCount": 0,
+		"startingWorkerUnit": "Tribesworker"
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Scout",
+		"baseUnitBuyCost":200,
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityAncient",
+		"embarkDefense": 1,
+		"iconRGB": [76,47,39]
+	},
+	{
+		"name": "Mystic's Era",
+		"researchAgreementCost": 100,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Tribe",
+		"startingWorkerCount": 0,
+		"startingWorkerUnit": "Tribesworker"
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Scout",
+		"baseUnitBuyCost":200,
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityAncient",
+		"embarkDefense": 1,
+		"iconRGB": [201,60,32]
+	},
+	{
+		"name": "Tulmultuous Era",
+		"researchAgreementCost": 100,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Tribe",
+		"startingWorkerCount": 0,
+		"startingWorkerUnit": "Tribesworker"
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Scout",
+		"baseUnitBuyCost":200,
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityAncient",
+		"embarkDefense": 1,
+		"iconRGB": [100,100,0]
+	},
+	{
+		"name": "Ancient Era",
+		"researchAgreementCost": 100,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Tribe",
+		"startingWorkerCount": 0,
+		"startingWorkerUnit": "Tribesworker"
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Scout",
+		"baseUnitBuyCost":200,
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityClassical",
+		"embarkDefense": 1,
+		"iconRGB": [27,85,131]
+	},
+	{
+		"name": "Wonderous Era",
+		"researchAgreementCost": 100,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Tribe",
+		"startingWorkerCount": 0,
+		"startingWorkerUnit": "Tribesworker"
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Scout",
+		"baseUnitBuyCost":200,
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityClassical",
+		"embarkDefense": 1,
+		"iconRGB": [37,40,80]
+	},
+	{
+		"name": "Continuous Era",
+		"researchAgreementCost": 100,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Tribe",
+		"startingWorkerCount": 0,
+		"startingWorkerUnit": "Tribesworker"
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Scout",
+		"baseUnitBuyCost":200,
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityClassical",
+		"embarkDefense": 1,
+		"iconRGB": [37,40,80]
+	}	
 ]
