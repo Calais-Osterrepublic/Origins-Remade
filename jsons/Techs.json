@@ -1,96 +1,999 @@
 [
-    {
-        "columnNumber":0,
-        "era":"Primeval Era",
-        "techCost":100,
-        "buildingCost":100,
-        "wonderCost":100,
-        "techs":[
-            {
-                "name":"Dawn of the Tribes",
-                "row":5,
-                "quote":"",
-                "uniques":[
-                    "Starting tech"
-                ]
-            }
-        ]
-    },
-    {
-        "columnNumber":1,
-        "era":"Primeval Era",
-        "techCost":50,
-        "buildingCost":100,
-        "wonderCost":100,
-        "techs":[
-            {
-                "name":"Gathering",
-                "row":3,
-                "cost":30
-                "quote":"",
-                "prerequisites":[
-                    "Dawn of the Tribes"
-                ],
-                "uniques":[
-                
-                ]
-            },
-            {
-                "name":"Primitive Tools",
-                "row":5,
-                "cost":20
-                "quote":"",
-                "prerequisites":[
-                    "Dawn of the Tribes"
-                ],
-                "uniques":[
-                    
-                ]
-            },
-            {
-                "name":"Hunting",
-                "row":7,
-                "cost":30
-                "quote":"",
-                "prerequisites":[
-                    "Dawn of the Tribes"
-                ],
-                "uniques":[
-                
-                ]
-            }
-        ]
-    },
-    {
-        "columnNumber":2,
-        "era":"Primeval Era",
-        "techCost":50,
-        "wonderCost":100,
-        "buildingCost":100,
-        "techs":[
-            {
-                "name":"Differentiation",
-                "row":3,
-                "quote":"",
-                "prerequisites":[
-                    "Gathering"
-                ],
-                "uniques":[
-                
-                ]
-            },
-            {
-                "name":"Warbands",
-                "row":4,
-                "quote":"",
-                "prerequisites":[
-                    "Primitive Tools",
-                    "Hunting"
-                ],
-                "uniques":[
-                
-                ]
-            }
-        ]
-    }
+	{
+		"columnNumber":0,
+		"era":"Primeval Era",
+		"techCost":100,
+		"buildingCost":100,
+		"wonderCost":100,
+		"techs":[
+			{
+				"name":"Dawn of the Tribes",
+				"row":5,
+				"quote":"",
+				"uniques":[
+					"Starting tech"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":1,
+		"era":"Primeval Era",
+		"techCost":50,
+		"buildingCost":100,
+		"wonderCost":100,
+		"techs":[
+			{
+				"name":"Gathering",
+				"row":4,
+				"cost":30,
+				"quote":"",
+				"prerequisites":[
+					"Dawn of the Tribes"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Primitive Tools",
+				"row":5,
+				"cost":20,
+				"quote":"",
+				"prerequisites":[
+					"Dawn of the Tribes"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Hunting",
+				"row":6,
+				"cost":30,
+				"quote":"",
+				"prerequisites":[
+					"Dawn of the Tribes"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":2,
+		"era":"Primeval Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Differentiation",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Gathering"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Warbands",
+				"row":6,
+				"quote":"",
+				"prerequisites":[
+					"Primitive Tools",
+					"Hunting"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":3,
+		"era":"Distinction Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Exploration",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"Differentiation"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Categorization",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Differentiation"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Primitive Weapons",
+				"row":6,
+				"quote":"",
+				"prerequisites":[
+					"Warbands"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":4,
+		"era":"Distinction Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Pathing",
+				"row":2,
+				"quote":"",
+				"prerequisites":[
+					"Exploration"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Animal Study",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"Exploration",
+					"Categorization"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Naming",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Categorization"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Trapping",
+				"row":6,
+				"quote":"",
+				"prerequisites":[
+					"Primitive Weapons"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":5,
+		"era":"Distinction Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Animal Taming",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Animal Study",
+					"Naming",
+					"Trapping"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Tactics",
+				"row":5,
+				"quote":"",
+				"prerequisites":[
+					"Naming",
+					"Trapping"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":6,
+		"era":"Internalist Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Spirit Study",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Animal Taming",
+					"Tactics"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Advanced Crafting",
+				"row":5,
+				"quote":"",
+				"prerequisites":[
+					"Tactics"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":7,
+		"era":"Internalist Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Domestication of Beast",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"Spirit Study"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Terrain Taming",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Spirit Study",
+					"Advanced Crafting"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Advanced Storage",
+				"row":5,
+				"quote":"",
+				"prerequisites":[
+					"Advanced Crafting"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Ranged Weapons",
+				"row":6,
+				"quote":"",
+				"prerequisites":[
+					"Advanced Crafting"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":8,
+		"era":"Internalist Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Domestication of Spirit",
+				"row":2,
+				"quote":"",
+				"prerequisites":[
+					"Domestication of Beast"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Tanning",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"Domestication of Beast"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Resonance",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Domestication of Beast",
+					"Terrain Taming"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Terrain Molding",
+				"row":6,
+				"quote":"",
+				"prerequisites":[
+					"Terrain Taming"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":9,
+		"era":"Mystic's Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Fleeting Sight",
+				"row":2,
+				"quote":"",
+				"prerequisites":[
+					"Domestication of Spirit",
+					"Tanning"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Advanced Shelters",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"Tanning"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Primitive Tonal Instruments",
+				"row":5,
+				"quote":"",
+				"prerequisites":[
+					"Resonance",
+					"Advanced Storage"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Mining",
+				"row":8,
+				"quote":"",
+				"prerequisites":[
+					"Terrain Molding"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":10,
+		"era":"Mystic's Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Secondary Camps",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"Advanced Shelters"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Tonal Reading",
+				"row":5,
+				"quote":"",
+				"prerequisites":[
+					"Primitive Tonal Instruments"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Pottery",
+				"row":7,
+				"quote":"",
+				"prerequisites":[
+					"Primitive Tonal Instruments",
+					"Mining"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Masonry",
+				"row":8,
+				"quote":"",
+				"prerequisites":[
+					"Mining"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":11,
+		"era":"Mystic's Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Terrain Cleansing",
+				"row":2,
+				"quote":"",
+				"prerequisites":[
+					"Fleeting Sight"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Seed Reading",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Secondary Camps",
+					"Tonal Reading"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Spirit Vessels",
+				"row":6,
+				"quote":"",
+				"prerequisites":[
+					"Tonal Reading",
+					"Pottery"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Metal Working",
+				"row":7,
+				"quote":"",
+				"prerequisites":[
+					"Tonal Reading",
+					"Pottery",
+					"Masonry"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Writing",
+				"row":8,
+				"quote":"",
+				"prerequisites":[
+					"Pottery",
+					"Masonry"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":12,
+		"era":"Tulmultuous Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Key of the Earth",
+				"row":2,
+				"quote":"",
+				"prerequisites":[
+					"Terrain Cleansing",
+					"Seed Reading"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Key of the Spirit",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Seed Reading",
+					"Spirit Vessels"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Key of the Golem",
+				"row":6,
+				"quote":"",
+				"prerequisites":[
+					"Spirit Vessels",
+					"Metal Working",
+					"Writing"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Key of the Soul",
+				"row":8,
+				"quote":"",
+				"prerequisites":[
+					"Writing"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":13,
+		"era":"Tulmultuous Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Trial of the Tribes",
+				"row":5,
+				"quote":"",
+				"prerequisites":[
+					"Key of the Earth",
+					"Key of the Spirit",
+					"Key of the Golem",
+					"Key of the Soul"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":14,
+		"era":"Tulmultuous Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"School of the Spirit",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"Trial of the Tribes"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"School of the Earth",
+				"row":7,
+				"quote":"",
+				"prerequisites":[
+					"Trial of the Tribes"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":15,
+		"era":"Ancient Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Sight of the Sea",
+				"row":2,
+				"quote":"",
+				"prerequisites":[
+					"School of the Spirit"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Sight of the Mind",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"School of the Spirit"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Spirit Taming",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"School of the Spirit"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Agriculture",
+				"row":7,
+				"quote":"",
+				"prerequisites":[
+					"School of the Earth"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":16,
+		"era":"Ancient Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Fishing",
+				"row":2,
+				"quote":"",
+				"prerequisites":[
+					"Sight of the Sea"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Philosophy",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"Sight of the Mind"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Archery",
+				"row":5,
+				"quote":"",
+				"prerequisites":[
+					"Agriculture"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Animal Husbandry",
+				"row":6,
+				"quote":"",
+				"prerequisites":[
+					"Agriculture"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"The Wheel",
+				"row":7,
+				"quote":"",
+				"prerequisites":[
+					"Agriculture"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Alchemy",
+				"row":8,
+				"quote":"",
+				"prerequisites":[
+					"Agriculture"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":17,
+		"era":"Ancient Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Sailing",
+				"row":2,
+				"quote":"",
+				"prerequisites":[
+					"Fishing"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Theology",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"Philosophy"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Wards",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Spirit Taming"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Mathematics",
+				"row":5,
+				"quote":"",
+				"prerequisites":[
+					"Archery",
+					"Animal Husbandry"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Engineering",
+				"row":7,
+				"quote":"",
+				"prerequisites":[
+					"Animal Husbandry",
+					"The Wheel",
+					"Alchemy"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Metal Casting",
+				"row":8,
+				"quote":"",
+				"prerequisites":[
+					"The Wheel",
+					"Alchemy"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":18,
+		"era":"Wonderous Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Education",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"Theology"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Accoustics",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Theology",
+					"Wards",
+					"Mathematics"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Architecture",
+				"row":6,
+				"quote":"",
+				"prerequisites":[
+					"Mathematics",
+					"Engineering",
+					"Metal Casting"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Metal Beasts",
+				"row":7,
+				"quote":"",
+				"prerequisites":[
+					"Engineering",
+					"Metal Casting"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":19,
+		"era":"Wonderous Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Long Range Projections",
+				"row":3,
+				"quote":"",
+				"prerequisites":[
+					"Education",
+					"Accoustics"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Etherial Voice",
+				"row":4,
+				"quote":"",
+				"prerequisites":[
+					"Education",
+					"Accoustics"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Spirit Welding",
+				"row":6,
+				"quote":"",
+				"prerequisites":[
+					"Architecture"
+				],
+				"uniques":[
+					
+				]
+			},
+			{
+				"name":"Thumpers",
+				"row":7,
+				"quote":"",
+				"prerequisites":[
+					"Accoustics",
+					"Metal Beasts"
+				],
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"columnNumber":20,
+		"era":"Continuous Era",
+		"techCost":50,
+		"wonderCost":100,
+		"buildingCost":100,
+		"techs":[
+			{
+				"name":"Eternal Striving",
+				"row":5,
+				"quote":"",
+				"prerequisites":[
+					"Long Range Projections",
+					"Etherial Voice",
+					"Spirit Welding",
+					"Thumpers"
+				],
+				"uniques":[
+					"Can be continually researched"
+				]
+			}
+		]
+	}
 ]
