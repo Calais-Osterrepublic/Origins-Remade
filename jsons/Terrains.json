@@ -14,7 +14,6 @@
 	},
 	{
 		"name":"Coast",
-		"food":1
 		"type":"Water",
 		"movementCost":1,
 		"RGB":[
@@ -123,6 +122,7 @@
 	},
 	{
 		"name":"Lakes",
+		"food":1,
 		"type":"Water",
 		"RGB":[
 			123,
@@ -167,6 +167,7 @@
 	},
 	{
 		"name":"Forest",
+		"food":1,
 		"type":"TerrainFeature",
 		"movementCost":2,
 		"overrideStats":true,
@@ -190,6 +191,7 @@
 	},
 	{
 		"name":"Jungle",
+		"food":1,
 		"type":"TerrainFeature",
 		"movementCost":2,
 		"overrideStats":true,
