@@ -40,7 +40,7 @@
 		"strength":4,
 		"uniques":[
 			"Never appears as a Barbarian unit",
-			"Invisible to non-adjacent units <when above [90] HP>"
+			//"Invisible to non-adjacent units <when above [90] HP>"
 		]
 	},
 	{
