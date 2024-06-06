@@ -190,8 +190,6 @@
 			"A Region can not contain more [Jungle] tiles than [Forest] tiles",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
-			"Considered [Food] when determining start locations <in [Forest] Regions>",
-			"Considered [Food] when determining start locations <in [Tundra] Regions>",
 			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
@@ -216,8 +214,6 @@
 			"A Region is formed with at least [30]% [Jungle] tiles, with priority [2]",
 			"A Region is formed with at least [35]% [Jungle] tiles and [Forest] tiles, with priority [2]",
 			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
-			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
-			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
