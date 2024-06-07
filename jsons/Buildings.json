@@ -18,7 +18,7 @@
 			"[+1 Production] from [Jungle] tiles [in this city]",
 			"Only available <with [3] to [6] neighboring [Jungle] tiles>"
 		],
-		"requiredTech": "Primitive Tools",
+		"requiredTech": "Dawn of the Tribes",
 		"cost": 40
 	},
 	{
@@ -28,7 +28,7 @@
 			"[+1 Production] from [Forest] tiles [in this city]",
 			"Only available <with [3] to [6] neighboring [Forest] tiles>"
 		],
-		"requiredTech": "Primitive Tools",
+		"requiredTech": "Dawn of the Tribes",
 		"cost": 20
 	},
 	{
@@ -37,7 +37,7 @@
 			"[+20]% growth [in this city]",
 			"Only available <in [River] tiles>"
 		],
-		"requiredTech": "Primitive Tools",
+		"requiredTech": "Dawn of the Tribes",
 		"cost": 60
 	},
 	{
@@ -47,7 +47,7 @@
 			"[+1 Production] from [Wild animals] tiles [in this city]",
 			"Must have an owned [Wild animals] within [2] tiles"
 		],
-		"requiredTech": "Primitive Tools",
+		"requiredTech": "Dawn of the Tribes",
 		"cost": 20
 	},
 	{	
@@ -90,7 +90,7 @@
 		"uniques": [
 			"Only available <after adopting [Botany]>"
 		],
-		"requiredTech": "Differentiation",
+		"requiredTech": "Dawn of the Tribes",
 		"cost": 80
 	}
 ]
