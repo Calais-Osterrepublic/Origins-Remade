@@ -225,7 +225,7 @@
 	},
 	{
 		"columnNumber":6,
-		"era":"Internalist Era",
+		"era":"Discovery Era",
 		"techCost":50,
 		"wonderCost":100,
 		"buildingCost":100,
@@ -257,7 +257,7 @@
 	},
 	{
 		"columnNumber":7,
-		"era":"Internalist Era",
+		"era":"Discovery Era",
 		"techCost":50,
 		"wonderCost":100,
 		"buildingCost":100,
@@ -311,7 +311,7 @@
 	},
 	{
 		"columnNumber":8,
-		"era":"Internalist Era",
+		"era":"Discovery Era",
 		"techCost":50,
 		"wonderCost":100,
 		"buildingCost":100,
