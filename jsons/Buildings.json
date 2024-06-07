@@ -50,6 +50,17 @@
 		"requiredTech": "Dawn of the Tribes",
 		"cost": 20
 	},
+	{
+		"name": "Shaman's Hut",
+		"specialistSlots":{
+			"Shaman":1
+		},
+		"uniques": [
+			"Only available <after adopting [Botany]>"
+		],
+		"requiredTech": "Dawn of the Tribes",
+		"cost": 80
+	},
 	{	
 		"name": "Hunters Lodge",
 		"maintenance": 0,
@@ -80,17 +91,6 @@
 			"culture": 10
 		},
 		"requiredTech": "Differentiation",
-		"cost": 80
-	},
-	{
-		"name": "Shaman's Hut",
-		"specialistSlots":{
-			"Shaman":1
-		},
-		"uniques": [
-			"Only available <after adopting [Botany]>"
-		],
-		"requiredTech": "Dawn of the Tribes",
 		"cost": 80
 	}
 ]
