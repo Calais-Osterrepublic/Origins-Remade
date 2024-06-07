@@ -32,7 +32,7 @@
 		"iconRGB": [108,113,86]
 	},
 	{
-		"name": "Internalist Era",
+		"name": "Discovery Era",
 		"researchAgreementCost": 100,
 		"startingSettlerCount": 1,
 		"startingSettlerUnit": "Tribe",
