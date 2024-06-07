@@ -2,9 +2,6 @@
 	{
 		"name":"Ocean",
 		"type":"Water",
-		
-		"food":1,
-		
 		"movementCost":1,
 		"RGB":[
 			43,
@@ -15,9 +12,6 @@
 	{
 		"name":"Coast",
 		"type":"Water",
-		
-		"food":1,
-		
 		"movementCost":1,
 		"RGB":[
 			70,
@@ -33,9 +27,6 @@
 	{
 		"name":"Grassland",
 		"type":"Land",
-		
-		"food":1,
-		
 		"movementCost":1,
 		"RGB":[
 			0,
@@ -66,9 +57,6 @@
 	{
 		"name":"Plains",
 		"type":"Land",
-		
-		"food":1,
-		
 		"movementCost":1,
 		"RGB":[
 			153,
@@ -101,9 +89,6 @@
 	{
 		"name":"Tundra",
 		"type":"Land",
-		
-		"food":1,
-		
 		"movementCost":1,
 		"RGB":[
 			124,
