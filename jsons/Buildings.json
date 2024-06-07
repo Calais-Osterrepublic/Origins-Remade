@@ -70,14 +70,8 @@
 	}
 	{
 		"name": "Elder's Hut",
-		"happiness":1,
-		"culture":1,
 		"specialistSlots":{
 			"Elder":1
-		},
-		"percentStatBonus": {
-			"food": -10,
-			"culture": 10
 		},
 		"requiredTech": "Differentiation",
 		"cost": 80
