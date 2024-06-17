@@ -4,7 +4,7 @@ size: 1024, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Tiles/Wild animals
+TileSets/FantasyHex/Tiles/Wild Animals
   rotate: false
   xy: 524, 624
   size: 100, 100
