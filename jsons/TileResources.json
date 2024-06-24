@@ -169,12 +169,5 @@
 			"Cannot be traded",
 			"Stockpiled"
 		]
-	},
-	{
-		"name": "Slaves",
-		"resourceType": "Strategic",
-		"uniques":[
-			"Stockpiled"
-		]
 	}
 ]
