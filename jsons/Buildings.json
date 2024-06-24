@@ -67,7 +67,7 @@
 		},
 		"requiredTech": "Gathering",
 		"cost": 60
-	}
+	},
 	{
 		"name": "Elder's Hut",
 		"specialistSlots":{
