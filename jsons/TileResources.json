@@ -20,5 +20,68 @@
             "Generated on every [20] tiles <in [Tundra] tiles>",
             "Generated on every [25] tiles <in [Desert] tiles>"
         ]
-    }
+    },
+	{
+		"name":"Reeds",
+		"resourceType":"Bonus",
+		"production":1,
+		"revealedBy":"Primitive Tools",
+		"terrainsCanBeFoundOn":[
+			"Forest",
+			"Jungle",
+			"Marsh"
+		],
+		"improvement":"Gathering Site",
+		"improvementStats":{
+			"production":1
+		},
+		"uniques":[
+			"Generated on every [5] tiles <in [Marsh] tiles>",
+			"Generated on every [10] tiles <in [Forest] tiles> <in tiles without [Tundra]> <in tiles with [Fresh Water]>",
+			"Generated on every [10] tiles <in [Jungle] tiles> <in tiles with [Fresh Water]>",
+			"Doesn't generate naturally <in [Hill] tiles>"
+		]
+	},
+	{
+		"name":"Fruits",
+		"resourceType":"Bonus",
+		"food":1,
+		"revealedBy":"Gathering",
+		"terrainsCanBeFoundOn":["Grassland","Plains","Flood plains"],
+		"improvement":"Gathering Site",
+		"improvementStats":{
+			"food":1
+		},
+		"uniques":[
+			"Generated on every [35] tiles <in [Flood plains] tiles>",
+			"Generated on every [20] tiles <in [Forest] tiles>",
+			"Generated on every [10] tiles <in [Jungle] tiles>"
+		]
+	},
+	{
+		"name": "Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"revealedBy":"Fishing",
+		"food": 2,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
+	},
+	{
+		"name":"Clay",
+		"resourceType":"Bonus",
+		"production":1,
+		"revealedBy":"Mining",
+		"terrainsCanBeFoundOn":["Grassland","Plains","Flood plains"],
+		"improvement":"Dig Site",
+		"improvementStats":{
+			"production":2
+		},
+		"uniques":[
+			"Generated on every [15] tiles <in [Flood plains] tiles>",
+			"Generated on every [25] tiles <in [Plains] tiles> <in tiles with [Fresh Water]>",
+			"Generated on every [25] tiles <in [Grassland] tiles> <in tiles with [Fresh Water]>",
+			"Doesn't generate naturally <in [Jungle] tiles>"
+		]
+	}
 ]
