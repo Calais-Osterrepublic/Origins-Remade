@@ -15,20 +15,6 @@
 		]
 	},
 	{
-		"name":"Stone Gathering",
-		"terrainsCanBeBuiltOn":[
-			"Hill",
-			"Mountain",
-			"Plains",
-			"Desert"
-		],
-		"turnsToBuild":10,
-		"techRequired":"Primitive Tools",
-		"uniques":[
-			"Can only be built to improve a resource"
-		]
-	},
-	{
 		"name":"Curiosity",
 		"terrainsCanBeBuiltOn":[
 			"Land",
