@@ -161,13 +161,5 @@
 		"resourceType": "Luxury",
 		"faith": 1,
 		"culture": 1
-	},
-	{
-		"name": "Prestige",
-		"resourceType": "Strategic",
-		"uniques":[
-			"Cannot be traded",
-			"Stockpiled"
-		]
 	}
 ]
