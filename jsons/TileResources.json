@@ -37,8 +37,8 @@
 		},
 		"uniques":[
 			"Generated on every [5] tiles <in [Marsh] tiles>",
-			"Generated on every [10] tiles <in [Forest] tiles> <in tiles without [Tundra]> <in tiles with [Fresh water]>",
-			"Generated on every [10] tiles <in [Jungle] tiles> <in tiles with [Fresh water]>",
+			"Generated on every [10] tiles <in [Forest] tiles> <in tiles without [Tundra]> <in [Fresh Water] tiles>",
+			"Generated on every [10] tiles <in [Jungle] tiles> <in [Fresh Water] tiles>",
 			"Doesn't generate naturally <in [Hill] tiles>"
 		]
 	},
@@ -91,8 +91,8 @@
 		},
 		"uniques":[
 			"Generated on every [15] tiles <in [Flood plains] tiles>",
-			"Generated on every [25] tiles <in [Plains] tiles> <in tiles with [Fresh water]>",
-			"Generated on every [25] tiles <in [Grassland] tiles> <in tiles with [Fresh water]>",
+			"Generated on every [25] tiles <in [Plains] tiles> <in [Fresh Water] tiles>",
+			"Generated on every [25] tiles <in [Grassland] tiles> <in [Fresh Water] tiles>",
 			"Doesn't generate naturally <in [Jungle] tiles>"
 		]
 	},
