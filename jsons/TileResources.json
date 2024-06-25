@@ -106,12 +106,9 @@
 		],
 		"culture":1,
 		"revealedBy":"Alchemy",
-		"improvementStats":{
-			"gold":1
-		},
+		"improvementStats":{"gold":1},
 		"improvedBy":["Farm"],
 		"uniques":[
-			"Generated with weight [10] <in [Tundra] Regions>",
 			"Generated with weight [15] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Forest] Regions>",
 			"Generated near City States with weight [10]",
@@ -122,12 +119,15 @@
 		"name": "Incense",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
-		"gold": 2,
+		"faith": 1,
 		"revealedBy":"Domestication of Spirit",
 		"improvedBy": ["Gathering Site","Farm"],
-		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
-					"Generated with weight [10] <in [Plains] Regions>",
-					"Generated near City States with weight [15]"]
+		"improvementStats":{"gold":1},
+		"uniques": [
+			"Generated with weight [35] <in [Desert] Regions>",
+			"Generated with weight [10] <in [Plains] Regions>",
+			"Generated near City States with weight [15]"
+		]
 	},
 	{
 		"name": "Ivory",
@@ -137,10 +137,11 @@
 		"revealedBy":"Trapping",
 		"improvedBy": ["Hunting Grounds","Hunting Camp"],
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
+		"uniques": [
+			"Generated with weight [35] <in [Plains] Regions>",
+			"Generated with weight [15] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
 	},
 	{
 		"name": "Pearls",
@@ -149,14 +150,16 @@
 		"gold": 2,
 		"revealedBy":"Fishing",
 		"improvedBy": ["Fishing Boats"],
-		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Desert] Regions>",
-					"Generated with weight [15] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [10] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
+		"uniques": [
+			"Generated with weight [20] <in [Jungle] Regions>",
+			"Generated with weight [10] <in [Forest] Regions>",
+			"Generated with weight [5] <in [Desert] Regions>",
+			"Generated with weight [15] <in [Hill] Regions>",
+			"Generated with weight [5] <in [Plains] Regions>",
+			"Generated with weight [10] <in [Grassland] Regions>",
+			"Generated with weight [20] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]"
+		]
 	},
 	{
 		"name": "Stimulating Plants",
@@ -166,9 +169,11 @@
 		"revealedBy":"Domestication of Spirit",
 		"improvedBy": ["Gathering Site","Farm"],
 		"uniques": [
-			"Generated on every [5] tiles <in [Marsh] tiles>",
-			"Generated on every [10] tiles <in [Forest] tiles> <in tiles without [Tundra]> <in [Fresh Water] tiles>",
-			"Generated on every [10] tiles <in [Jungle] tiles> <in [Fresh Water] tiles>",
+			"Generated with weight [10] <in [Forest] Regions>",
+			"Generated with weight [15] <in [Hill] Regions>",
+			"Generated with weight [5] <in [Plains] Regions>",
+			"Generated with weight [10] <in [Grassland] Regions>",
+			"Generated with weight [20] <in [Hybrid] Regions>",
 			"Doesn't generate naturally <in [Hill] tiles>"
 		]
 	},
@@ -211,28 +216,29 @@
 					"Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"
 		],
-		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
+		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 6},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
 		"name": "Herbs",
 		"resourceType": "Strategic",
 		"revealedBy": "Advanced Crafting",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"],
+		"terrainsCanBeFoundOn": ["Forest","Jungle","Marsh"],
 		"food": 1,
 		"improvedBy": ["Gathering Site","Farm"],
 		"improvementStats": {"production": 1, "culture":1},
 		"uniques": [
 					"Guaranteed with Strategic Balance resource option",
-					"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
-					"Generated with weight [100] <in [{Featureless} {Plains}] tiles>",
-					"Minor deposits generated with weight [10] <in [{Grassland} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Generated with weight [60] <in [{Forest} {Grassland}] tiles>",
+					"Generated with weight [60] <in [{Forest} {Plains}] tiles>",
+					"Generated with weight [60] <in [{Jungle} {Grassland}] tiles>",
+					"Generated with weight [60] <in [{Jungle} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Grassland} {Hill}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles>",
 					"Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
-					"Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"
 		],
-		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
+		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 6},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	}
 ]
