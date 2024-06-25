@@ -19,6 +19,18 @@
 	},
 	
 	{
+		"name":"Whispering Shrine",
+		"terrainsCanBeBuiltOn":["Land"],
+		"faith":1,
+		"turnsToBuild":7,
+		"techRequired":"Tonal Reading",
+		"uniques":[
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [-18 Faith, +18 Gold]"
+		]
+	},
+	
+	{
 		"name":"Dig Site",
 		"terrainsCanBeBuiltOn":["Land"],
 		"production":1,
