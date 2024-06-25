@@ -134,9 +134,7 @@
 	{
 		"name":"Lakes",
 		"type":"Water",
-		
 		"food":1,
-		
 		"RGB":[
 			0,
 			171,
@@ -266,7 +264,8 @@
 	{
 		"name":"Jungle",
 		"type":"TerrainFeature",
-		"food":2,
+		"production":1,
+		"food":1,
 		"movementCost":2,
 		"overrideStats":true,
 		"unbuildable":true,
