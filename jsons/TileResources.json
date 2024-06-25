@@ -119,25 +119,27 @@
 		]
 	},
 	{
-		"name":"Incense",
-		"resourceType":"Luxury",
-		"terrainsCanBeFoundOn":[
-			"Jungle",
-			"Forest",
-			"Marsh"
-		],
-		"culture":1,
-		"revealedBy":"Alchemy",
-		"improvementStats":{
-			"gold":1
-		},
-		"improvedBy":["Gathering Site","Farm"],
-		"uniques":[
-			"Generated with weight [10] <in [Tundra] Regions>",
-			"Generated with weight [15] <in [Jungle] Regions>",
-			"Generated with weight [30] <in [Forest] Regions>",
-			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Hill] tiles>"
-		]
-	}
+		"name": "Incense",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
+		"gold": 2,
+		"revealedBy":"Domestication of Spirit",
+		"improvedBy": ["Gathering Site","Farm"],
+		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
+					"Generated with weight [10] <in [Plains] Regions>",
+					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "Ivory",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"gold": 2,
+		"revealedBy":"Trapping",
+		"improvedBy": ["Hunting Grounds","Hunting Camp"],
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
+	},
 ]
