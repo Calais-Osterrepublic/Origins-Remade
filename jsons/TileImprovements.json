@@ -1,24 +1,42 @@
 [
 	{
 		"name":"Hunting Grounds",
-		"terrainsCanBeBuiltOn":[
-			"Grassland",
-			"Plains",
-			"Tundra",
-			"Desert"
-		],
+		"terrainsCanBeBuiltOn":["Land"],
 		"food":1,
-		"turnsToBuild":10,
+		"turnsToBuild":5,
 		"techRequired":"Hunting",
 		"uniques":[
 			"Can only be built to improve a resource"
 		]
 	},
 	{
+		"name":"Gathering Site",
+		"terrainsCanBeBuiltOn":["Land"],
+		"food":1,
+		"turnsToBuild":5,
+		"techRequired":"Hunting",
+		"uniques":["Can only be built to improve a resource"]
+	},
+	{
+		"name":"Dig Site",
+		"terrainsCanBeBuiltOn":["Land"],
+		"production":1,
+		"turnsToBuild":9,
+		"techRequired":"Mining",
+		"uniques":["Can only be built to improve a resource"]
+	},
+	{
+		"name":"Fishing Boats",
+		"terrainsCanBeBuiltOn":["Water"],
+		"food":1,
+		"techRequired":"Fishing",
+		"uniques":["Can only be built to improve a resource"]
+	},
+	
+	{
 		"name":"Curiosity",
 		"terrainsCanBeBuiltOn":[
-			"Land",
-			"Forest"
+			"Land"
 		],
 		"uniques":[
 			"Unpillagable",
@@ -33,8 +51,7 @@
 		],
 		"uniques":[
 			"Unpillagable",
-			"Unbuildable",
-			"Will be replaced by automated workers"
+			"Unbuildable"
 		]
 	},
 	{
