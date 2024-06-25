@@ -29,7 +29,17 @@
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		]
 	},
-	
+	{
+		"name":"Hunting Camp",
+		"terrainsCanBeBuiltOn":["Land"],
+		"food":1,
+		"turnsToBuild":9,
+		"techRequired":"Archery",
+		"uniques":[
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+18 Gold]"
+		]
+	},
 	{
 		"name":"Farm",
 		"terrainsCanBeBuiltOn":["Land"],
