@@ -14,7 +14,7 @@
 		"terrainsCanBeBuiltOn":["Land"],
 		"food":1,
 		"turnsToBuild":5,
-		"techRequired":"Hunting",
+		"techRequired":"Gathering",
 		"uniques":["Can only be built to improve a resource"]
 	},
 	
@@ -32,7 +32,7 @@
 		"terrainsCanBeBuiltOn":["Land"],
 		"food":1,
 		"turnsToBuild":9,
-		"techRequired":"Hunting",
+		"techRequired":"Farming",
 		"uniques":[
 			"Can also be built on tiles adjacent to fresh water",
 			"Pillaging this improvement yields approximately [+18 Gold]"
