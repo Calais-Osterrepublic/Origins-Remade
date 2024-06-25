@@ -17,6 +17,7 @@
 		"techRequired":"Hunting",
 		"uniques":["Can only be built to improve a resource"]
 	},
+	
 	{
 		"name":"Dig Site",
 		"terrainsCanBeBuiltOn":["Land"],
@@ -25,6 +26,19 @@
 		"techRequired":"Mining",
 		"uniques":["Can only be built to improve a resource"]
 	},
+	
+	{
+		"name":"Farm",
+		"terrainsCanBeBuiltOn":["Land"],
+		"food":1,
+		"turnsToBuild":9,
+		"techRequired":"Hunting",
+		"uniques":[
+			"Can also be built on tiles adjacent to fresh water",
+			"Pillaging this improvement yields approximately [+18 Gold]"
+		]
+	},
+	
 	{
 		"name":"Fishing Boats",
 		"terrainsCanBeBuiltOn":["Water"],
