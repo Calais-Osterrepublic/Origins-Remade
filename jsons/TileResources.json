@@ -117,5 +117,27 @@
 			"Generated near City States with weight [10]",
 			"Doesn't generate naturally <in [Hill] tiles>"
 		]
+	},
+	{
+		"name":"Incense",
+		"resourceType":"Luxury",
+		"terrainsCanBeFoundOn":[
+			"Jungle",
+			"Forest",
+			"Marsh"
+		],
+		"culture":1,
+		"revealedBy":"Alchemy",
+		"improvementStats":{
+			"gold":1
+		},
+		"improvement":"Farm",
+		"uniques":[
+			"Generated with weight [10] <in [Tundra] Regions>",
+			"Generated with weight [15] <in [Jungle] Regions>",
+			"Generated with weight [30] <in [Forest] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Hill] tiles>"
+		]
 	}
 ]
