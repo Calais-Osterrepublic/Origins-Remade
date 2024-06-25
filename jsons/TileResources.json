@@ -167,8 +167,8 @@
 		"improvedBy": ["Gathering Site","Farm"],
 		"uniques": [
 			"Generated on every [5] tiles <in [Marsh] tiles>",
-			"Generated on every [10] tiles <in [Forest] tiles> <in tiles without [Tundra]> <in tiles with [Fresh Water]>",
-			"Generated on every [10] tiles <in [Jungle] tiles> <in tiles with [Fresh Water]>",
+			"Generated on every [10] tiles <in [Forest] tiles> <in tiles without [Tundra]> <in [Fresh Water] tiles>",
+			"Generated on every [10] tiles <in [Jungle] tiles> <in [Fresh Water] tiles>",
 			"Doesn't generate naturally <in [Hill] tiles>"
 		]
 	},
@@ -196,7 +196,7 @@
 	{
 		"name": "Bindings",
 		"resourceType": "Strategic",
-		"revealedBy": "Tonal Readings",
+		"revealedBy": "Tonal Reading",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"],
 		"production": 1,
 		"improvedBy": ["Whispering Shrine"],
