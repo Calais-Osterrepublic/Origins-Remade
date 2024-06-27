@@ -34,20 +34,20 @@
 
 	{
 		"name":"Melee Water",
-		"movementType":"Land"
+		"movementType":"Water"
 	},
 	{
 		"name":"Support Water",
-		"movementType":"Land"
+		"movementType":"Water"
 	},
 	{
 		"name":"Sea Beast",
-		"movementType":"Land"
+		"movementType":"Water"
 	},
 
 	{
 		"name":"Spirit",
-		"movementType":"Land"
+		"movementType":"Air"
 	},
 	
 ]
