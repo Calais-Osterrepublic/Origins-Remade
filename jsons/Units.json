@@ -11,6 +11,7 @@
 			"Cannot be purchased"
 		]
 	},
+	
 	{
 		"name":"Tribesworker",
 		"requiredTech": "Gathering",
@@ -21,6 +22,7 @@
 		],
 		"cost":25
 	},
+	
 	{
 		"name":"Hunter",
 		"requiredTech": "Hunting",
@@ -28,13 +30,86 @@
 		"unitType":"Melee Infantry",
 		"movement":1,
 		"strength":8,
+		"uniques":[]
+	},
+	{
+		"name":"Spearman",
+		"requiredTech": "Primitive Weapons",
+		"cost":90,
+		"unitType":"Melee Infantry",
+		"movement":1,
+		"strength":10,
+		"uniques":[]
+	},
+	{
+		"name":"Swordman",
+		"requiredTech": "Advanced Crafting",
+		"cost":150,
+		"unitType":"Melee Infantry",
+		"movement":1,
+		"strength":15,
+		"uniques":[]
+	},
+	{
+		"name":"Warrior",
+		"requiredTech": "Metal Working",
+		"cost":250,
+		"unitType":"Melee Infantry",
+		"movement":1,
+		"strength":19,
+		"uniques":[]
+	},
+	{
+		"name":"Knight",
+		"requiredTech": "Theology",
+		"cost":400,
+		"unitType":"Melee Infantry",
+		"movement":1,
+		"strength":36,
 		"uniques":[
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Comment [Consumes 1 Bindings]"
+		]
+	},
+	
+	{
+		"name":"Wildman",
+		"unitType":"Melee Infantry",
+		"uniqueTo":"Barbarians",
+		"replaces": "Hunter",
+		"movement":1,
+		"strength":8,
+		"cost":100,
+		"uniques":[
+			"[+20]% Strength bonus for [Animal] units within [3] tiles"
 		]
 	},
 	{
-		"name":"Scout",
+		"name":"Marauder",
 		"unitType":"Melee Infantry",
+		"uniqueTo":"Barbarians",
+		"replaces": "Spearman",
+		"movement":1,
+		"strength":11,
+		"cost":100,
+		"uniques":[
+			"[+40]% Strength bonus for [Animal] units within [3] tiles"
+		]
+	},
+	{
+		"name":"Brute",
+		"unitType":"Melee Infantry",
+		"uniqueTo":"Barbarians",
+		"replaces": "Warrior",
+		"movement":1,
+		"strength":24,
+		"cost":100,
+		"uniques":[]
+	}
+	
+	{
+		"name":"Scout",
+		"unitType":"Scout",
 		"cost":25,
 		"movement":2,
 		"strength":4,
@@ -43,6 +118,7 @@
 			//"Invisible to non-adjacent units <when above [90] HP>"
 		]
 	},
+	
 	{
 		"name":"Wolf",
 		"unitType":"Animal",
@@ -56,14 +132,48 @@
 		]
 	},
 	{
-		"name":"Wildman",
-		"unitType":"Melee Infantry",
+		"name":"Bear",
+		"unitType":"Animal",
 		"uniqueTo":"Barbarians",
-		"movement":1,
-		"strength":8,
+		"movement":2,
+		"strength":12,
 		"cost":100,
 		"uniques":[
-			"[+20]% Strength bonus for [Animal] units within [3] tiles"
+			"No defensive terrain bonus",
+			"Can move after attacking"
 		]
+	},
+	{
+		"name":"Elkind",
+		"unitType":"Animal",
+		"uniqueTo":"Barbarians",
+		"movement":3,
+		"strength":24,
+		"cost":100,
+		"uniques":[
+			"No defensive terrain bonus",
+			"Can move after attacking"
+		]
+	},
+	
+	{
+		"name": "Slinger",
+		"unitType": "Ranged Infantry",
+		"movement": 1,
+		"strength": 7,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 110,
+		"requiredTech": "Ranged Weapons"
+	},
+	{
+		"name": "Spear Thrower",
+		"unitType": "Ranged Infantry",
+		"movement": 1,
+		"strength": 7,
+		"rangedStrength": 18,
+		"range": 2,
+		"cost": 210,
+		"requiredTech": "Ranged Weapons"
 	}
 ]
