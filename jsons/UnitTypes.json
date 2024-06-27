@@ -1,14 +1,53 @@
 [
-    {
-        "name": "Civilian",
-        "movementType": "Land"
-    },
-    {
-        "name": "Melee Infantry",
-        "movementType": "Land"
-    },
-    {
-        "name": "Animal",
-        "movementType": "Land"
-    }
+	{
+		"name":"Civilian",
+		"movementType":"Land"
+	},
+	{
+		"name":"Melee Infantry",
+		"movementType":"Land"
+	},
+	{
+		"name":"Ranged Infantry",
+		"movementType":"Land"
+	},
+	{
+		"name":"Irregular Infantry",
+		"movementType":"Land"
+	},
+	{
+		"name":"Scout",
+		"movementType":"Land"
+	},
+	{
+		"name":"Golem",
+		"movementType":"Land"
+	},
+	{
+		"name":"Support",
+		"movementType":"Land"
+	},
+	{
+		"name":"Animal",
+		"movementType":"Land"
+	}
+
+	{
+		"name":"Melee Water",
+		"movementType":"Land"
+	},
+	{
+		"name":"Support Water",
+		"movementType":"Land"
+	},
+	{
+		"name":"Sea Beast",
+		"movementType":"Land"
+	},
+
+	{
+		"name":"Spirit",
+		"movementType":"Land"
+	},
+	
 ]
