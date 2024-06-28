@@ -76,6 +76,7 @@
 		"name":"Wildman",
 		"unitType":"Melee Infantry",
 		"uniqueTo":"Barbarians",
+		"requiredTech": "Hunting",
 		"replaces": "Hunter",
 		"movement":1,
 		"strength":8,
@@ -89,6 +90,7 @@
 		"unitType":"Melee Infantry",
 		"uniqueTo":"Barbarians",
 		"replaces": "Spearman",
+		"requiredTech": "Primitive Weapons",
 		"movement":1,
 		"strength":11,
 		"cost":100,
@@ -100,6 +102,7 @@
 		"name":"Brute",
 		"unitType":"Melee Infantry",
 		"uniqueTo":"Barbarians",
+		"requiredTech": "Metal Working",
 		"replaces": "Warrior",
 		"movement":1,
 		"strength":24,
@@ -123,6 +126,7 @@
 		"name":"Bear",
 		"unitType":"Animal",
 		"uniqueTo":"Barbarians",
+		"requiredTech": "Exploration",
 		"movement":2,
 		"strength":12,
 		"cost":100,
@@ -135,6 +139,7 @@
 		"name":"Elkind",
 		"unitType":"Animal",
 		"uniqueTo":"Barbarians",
+		"requiredTech": "Tonal Reading",
 		"movement":3,
 		"strength":24,
 		"cost":100,
@@ -152,6 +157,9 @@
 		"rangedStrength": 12,
 		"range": 1,
 		"cost": 110,
+		"uniques":[
+			"Never appears as a Barbarian unit"
+		],
 		"requiredTech": "Ranged Weapons"
 	},
 	{
@@ -162,6 +170,9 @@
 		"rangedStrength": 18,
 		"range": 2,
 		"cost": 210,
+		"uniques":[
+			"Never appears as a Barbarian unit"
+		],
 		"requiredTech": "Ranged Weapons"
 	},
 	{
@@ -172,6 +183,9 @@
 		"rangedStrength": 36,
 		"range": 2,
 		"cost": 350,
+		"uniques":[
+			"Never appears as a Barbarian unit"
+		],
 		"requiredTech": "Ranged Weapons"
 	},
 	
@@ -233,7 +247,9 @@
 		"cost":100,
 		"movement":2,
 		"strength":9,
-		"uniques":[],
+		"uniques":[
+			"Never appears as a Barbarian unit"
+		]
 		"requiredTech": "Spirit Vessels"
 	},
 	{
@@ -242,15 +258,17 @@
 		"cost":300,
 		"movement":1,
 		"strength":20,
-		"uniques":[],
+		"uniques":[
+			"Never appears as a Barbarian unit"
+		]
 		"requiredTech": "Spirit Vessels"
 	},
 	{
 		"name":"Ivory Elk",
 		"unitType":"Golem",
 		"movement":1,
-		"strength":20,
-		"uniques":["Unbuildable","Cannot be purchased"]
+		"strength":36,
+		"uniques":["Unbuildable","Cannot be purchased","Never appears as a Barbarian unit"]
 	},
 	
 ]
