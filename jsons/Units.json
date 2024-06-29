@@ -13,7 +13,7 @@
 	},
 	
 	{
-		"name":"Tribesworker",
+		"name":"Worker",
 		"requiredTech": "Gathering",
 		"unitType":"Civilian",
 		"movement":1,
@@ -56,7 +56,7 @@
 		"cost":250,
 		"unitType":"Melee Infantry",
 		"movement":1,
-		"strength":19,
+		"strength":18,
 		"uniques":[]
 	},
 	{
@@ -130,10 +130,7 @@
 		"movement":2,
 		"strength":12,
 		"cost":100,
-		"uniques":[
-			"No defensive terrain bonus",
-			"Can move after attacking"
-		]
+		"uniques":[]
 	},
 	{
 		"name":"Elkind",
@@ -167,13 +164,13 @@
 		"unitType": "Ranged Infantry",
 		"movement": 1,
 		"strength": 7,
-		"rangedStrength": 18,
+		"rangedStrength": 20,
 		"range": 2,
 		"cost": 210,
 		"uniques":[
 			"Never appears as a Barbarian unit"
 		],
-		"requiredTech": "Ranged Weapons"
+		"requiredTech": "Metal Working"
 	},
 	{
 		"name": "Archer",
@@ -186,7 +183,7 @@
 		"uniques":[
 			"Never appears as a Barbarian unit"
 		],
-		"requiredTech": "Ranged Weapons"
+		"requiredTech": "Archery"
 	},
 	
 	
@@ -270,5 +267,61 @@
 		"strength":36,
 		"uniques":["Unbuildable","Cannot be purchased","Never appears as a Barbarian unit"]
 	},
+
+	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 2,
+		"strength": 10,
+		"cost": 245,
+		"requiredTech": "Fishing",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Galley"
+	},
+	{
+		"name": "Galley",
+		"unitType": "Melee Water",
+		"movement": 2,
+		"strength": 15,
+		"cost": 375,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"]
+	},
 	
+	{
+		"name": "Archer Boat",
+		"unitType": "Support Water",
+		"rangedStrength": 12,
+		"range": 1,
+		"movement": 2,
+		"strength": 15,
+		"cost": 375,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit","Only available <after discovering [Archery]>"]
+	},
+	
+	{
+		"name": "Sea Serpent",
+		"unitType": "Sea Beast",
+		"uniqueTo": "Barbarians",
+		"movement": 4,
+		"strength": 13,
+		"cost": 375,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Can move after attacking"
+		]
+	},
+	{
+		"name": "Shark",
+		"unitType": "Sea Beast",
+		"uniqueTo": "Barbarians",
+		"movement": 6,
+		"strength": 10,
+		"cost": 375,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Can move after attacking"
+		]
+	},
 ]
