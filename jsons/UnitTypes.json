@@ -44,6 +44,10 @@
 		"name":"Sea Beast",
 		"movementType":"Water"
 	},
+	{
+		"name":"Civilian Water",
+		"movementType":"Water"
+	},
 
 	{
 		"name":"Spirit",
