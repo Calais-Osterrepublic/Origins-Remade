@@ -2,13 +2,16 @@
 	{
 		"name":"Recovery",
 		"uniques":[
-			"Unit will heal every turn, even if it performs an action <for [5] turns>",
-			"All healing effects doubled <for [5] turns>",
-			"[-10]% Strength <for [5] turns>",
+			"Heal this unit by [10] HP",
+			"Heal this unit by [10] HP <after discovering [Alchemy]>",
 			"Doing so will consume this opportunity to choose a Promotion"
 		],
 		"unitTypes":[
-			"Melee Infantry"
+			"Melee Infantry",
+			"Ranged Infantry",
+			"Irregular Infantry",
+			"Scout",
+			"Support"
 		],
 		"row":0,
 		"column":0
