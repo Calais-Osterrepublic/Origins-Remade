@@ -30,7 +30,7 @@
 	{
 		"name":"Shock I",
 		"uniques":[
-			"[+33]% Strength <when fighting in [Open terrain] tiles>"
+			"[+15]% Strength <when fighting in [Open terrain] tiles>"
 		],
 		"unitTypes":[
 			"Melee Infantry"
@@ -44,7 +44,7 @@
 			"Shock I"
 		],
 		"uniques":[
-			"[+33]% Strength <when fighting in [Open terrain] tiles>"
+			"[+15]% Strength <when fighting in [Open terrain] tiles>"
 		],
 		"unitTypes":[
 			"Melee Infantry"
@@ -58,7 +58,7 @@
 			"Shock II"
 		],
 		"uniques":[
-			"[+33]% Strength <when attacking>"
+			"[+15]% Strength <when attacking>"
 		],
 		"unitTypes":[
 			"Melee Infantry"
@@ -69,7 +69,7 @@
 	{
 		"name":"Drill I",
 		"uniques":[
-			"[+33]% Strength <when fighting in [Rough terrain] tiles>"
+			"[+15]% Strength <when fighting in [Rough terrain] tiles>"
 		],
 		"unitTypes":[
 			"Melee Infantry"
@@ -83,7 +83,7 @@
 			"Drill I"
 		],
 		"uniques":[
-			"[+33]% Strength <when fighting in [Rough terrain] tiles>",
+			"[+15]% Strength <when fighting in [Rough terrain] tiles>",
 		],
 		"unitTypes":[
 			"Melee Infantry"
@@ -97,7 +97,7 @@
 			"Drill II"
 		],
 		"uniques":[
-			"[+33]% Strength <when defending>"
+			"[+15]% Strength <when defending>"
 		],
 		"unitTypes":[
 			"Melee Infantry"
@@ -149,5 +149,176 @@
 		],
 		"column":3,
 		"row":3
+	},
+	
+	{
+		"name":"Accuracy I",
+		"uniques":[
+			"[+15]% Strength <when attacking>"
+		],
+		"unitTypes":[
+			"Ranged Infantry"
+		],
+		"column":1,
+		"row":4
+	},
+	{
+		"name":"Accuracy II",
+		"prerequisites":[
+			"Accuracy I"
+		],
+		"uniques":[
+			"[+15]% Strength <when attacking>"
+		],
+		"unitTypes":[
+			"Ranged Infantry"
+		],
+		"column":2,
+		"row":4
+	},
+	{
+		"name":"Accuracy III",
+		"prerequisites":[
+			"Accuracy II"
+		],
+		"uniques":[
+			"[+15]% Strength <when attacking>"
+		],
+		"unitTypes":[
+			"Ranged Infantry"
+		],
+		"column":3,
+		"row":4
+	},
+	{
+		"name":"Cohesion I",
+		"uniques":[
+			"Comment [Changes coming Soon] <hidden from users>",
+			"[+15]% Strength <when defending>"
+		],
+		"unitTypes":[
+			"Ranged Infantry"
+		],
+		"column":1,
+		"row":5
+	},
+	{
+		"name":"Cohesion II",
+		"prerequisites":[
+			"Cohesion I"
+		],
+		"uniques":[
+			"Comment [Changes coming Soon] <hidden from users>",
+			"[+15]% Strength <when defending>"
+		],
+		"unitTypes":[
+			"Ranged Infantry"
+		],
+		"column":2,
+		"row":5
+	},
+	{
+		"name":"Cohesion III",
+		"prerequisites":[
+			"Cohesion II"
+		],
+		"uniques":[
+			"Comment [Changes coming Soon] <hidden from users>",
+			"[+15]% Strength <when defending>"
+		],
+		"unitTypes":[
+			"Ranged Infantry"
+		],
+		"column":3,
+		"row":5
+	},
+	{
+		"name":"Volley",
+		"prerequisites":[
+			"Accuracy III"
+		],
+		"uniques":[
+			"Comment [Changes coming Soon] <hidden from users>",
+			"[+33]% Strength <when attacking> <vs cities>",
+		],
+		"unitTypes":[
+			"Ranged Infantry"
+		],
+		"column":1,
+		"row":6
+	},
+	{
+		"name":"Barrage",
+		"prerequisites":[
+			"Cohesion III"
+		],
+		"uniques":[
+			"Comment [Changes coming Soon] <hidden from users>",
+			"[1] additional attacks per turn"
+		],
+		"unitTypes":[
+			"Ranged Infantry"
+		],
+		"column":2,
+		"row":6
+	},
+	{
+		"name":"Extended Range",
+		"prerequisites":[
+			"Cohesion III",
+			"Accuracy III"
+		],
+		"uniques":[
+			"Comment [Changes coming Soon] <hidden from users>",
+			"[+1] Range",
+			"[+1] Sight",
+		],
+		"unitTypes":[
+			"Ranged Infantry"
+		],
+		"column":3,
+		"row":6
+	},
+	{
+		"name":"Autonomy I",
+		"uniques":[
+			"Automation is a primary action",
+			"[+50]% maintenance costs"
+		],
+		"unitTypes":[
+			"Irregular Infantry"
+		],
+		"column":1,
+		"row":7
+	},
+	{
+		"name":"Autonomy II",
+		"prerequisites":[
+			"Autonomy I"
+		],
+		"uniques":[
+			"No movement cost to pillage",
+			"[+50]% maintenance costs"
+		],
+		"unitTypes":[
+			"Irregular Infantry"
+		],
+		"column":2,
+		"row":7
+	},
+	{
+		"name":"Autonomy III",
+		"prerequisites":[
+			"Autonomy II"
+		],
+		"uniques":[
+			"Unit will heal every turn, even if it performs an action",
+			"[+50]% maintenance costs"
+		],
+		"unitTypes":[
+			"Irregular Infantry"
+		],
+		"column":3,
+		"row":7
 	}
 ]
