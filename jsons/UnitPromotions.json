@@ -320,5 +320,432 @@
 		],
 		"column":3,
 		"row":7
-	}
+	},
+	{
+		"name":"Plausable Deniability",
+		"prerequisites":[
+			"Autonomy III"
+		],
+		"uniques":[
+			"May enter foreign tiles without open borders",
+			"Destroys tile improvements when attacking <when fighting in [Enemy land] tiles>",
+			"[+50]% maintenance costs"
+		],
+		"unitTypes":[
+			"Irregular Infantry"
+		],
+		"column":4,
+		"row":7
+	},
+	{
+		"name":"Cooperation I",
+		"uniques":[
+			"[+15]% Strength <when adjacent to a [Military] unit>"
+		],
+		"unitTypes":[
+			"Irregular Infantry"
+		],
+		"column":1,
+		"row":8
+	},
+	{
+		"name":"Cooperation II",
+		"prerequisites":[
+			"Cooperation I"
+		],
+		"uniques":[
+			"[+15]% Strength <when adjacent to a [Military] unit>"
+		],
+		"unitTypes":[
+			"Irregular Infantry"
+		],
+		"column":2,
+		"row":8
+	},
+	{
+		"name":"Cooperation III",
+		"prerequisites":[
+			"Cooperation II"
+		],
+		"uniques":[
+			"[+15]% Strength <when adjacent to a [Military] unit>"
+		],
+		"unitTypes":[
+			"Irregular Infantry"
+		],
+		"column":3,
+		"row":8
+	},
+	{
+		"name":"Integration",
+		"prerequisites":[
+			"Cooperation III"
+		],
+		"uniques":[
+			"This Unit upgrades for free including special upgrades"
+		],
+		"unitTypes":[
+			"Irregular Infantry"
+		],
+		"column":4,
+		"row":8
+	},
+	{
+		"name":"Asymmetry I",
+		"uniques":[
+			"[+33]% Strength <when attacking> <when fighting in [Friendly Land] tiles>"
+		],
+		"unitTypes":[
+			"Irregular Infantry", "Scout"
+		],
+		"column":1,
+		"row":9
+	},
+	{
+		"name":"Asymmetry II",
+		"prerequisites":[
+			"Asymmetry I"
+		],
+		"uniques":[
+			"[+33]% Strength <when attacking> <when fighting in [Friendly Land] tiles>"
+		],
+		"unitTypes":[
+			"Irregular Infantry", "Scout"
+		],
+		"column":2,
+		"row":9
+	},
+	{
+		"name":"Asymmetry III",
+		"prerequisites":[
+			"Asymmetry II"
+		],
+		"uniques":[
+			"Invisible to non-adjacent units <in [{Improved} {Friendly Land}] tiles>"
+		],
+		"unitTypes":[
+			"Irregular Infantry", "Scout"
+		],
+		"column":3,
+		"row":9
+	},
+	{
+		"name":"Stealth Tactics",
+		"prerequisites":[
+			"Asymmetry III"
+		],
+		"uniques":[
+			"Invisible to non-adjacent units <when above [75] HP> <in [{Improved} {Foreign Land}] tiles>",
+			"[+100]% to Flank Attack bonuses"
+		],
+		"unitTypes":[
+			"Irregular Infantry", "Scout"
+		],
+		"column":4,
+		"row":9
+	},
+	{
+		"name":"Patrol I",
+		"uniques":[
+			"[+33]% Strength <when fighting in [your] tiles>"
+		],
+		"unitTypes":[
+			"Scout"
+		],
+		"column":1,
+		"row":10
+	},
+	{
+		"name":"Patrol II",
+		"prerequisites":[
+			"Patrol I"
+		],
+		"uniques":[
+			"[+1] Movement"
+		],
+		"unitTypes":[
+			"Scout"
+		],
+		"column":2,
+		"row":10
+	},
+	{
+		"name":"Patrol III",
+		"prerequisites":[
+			"Patrol II"
+		],
+		"uniques":[
+			"[+1] Sight"
+		],
+		"unitTypes":[
+			"Scout"
+		],
+		"column":3,
+		"row":10
+	},
+	{
+		"name":"Survivalism",
+		"prerequisites":[
+			"Patrol III"
+		],
+		"uniques":[
+			"[-33]% maintenance costs",
+			"[+33]% Strength <when defending>"
+		],
+		"unitTypes":[
+			"Scout"
+		],
+		"column":4,
+		"row":10
+	},
+	{
+		"name":"Medic I",
+		"prerequisites":[
+			"Patrol I",
+			"Shock I",
+			"Drill I",
+			"Accuracy I",
+			"Cohesion I",
+			"Cooperation I",
+			"Asymmetry I"
+		],
+		"uniques":[
+			"All adjacent units heal [+5] HP when healing"
+		],
+		"unitTypes":[
+			"Scout",
+			"Ranged Infantry",
+			"Melee Infantry",
+			"Irregular Infantry"
+		],
+		"column":1,
+		"row":11
+	},
+	{
+		"name":"Medic II",
+		"prerequisites":[
+			"Medic I"
+		],
+		"uniques":[
+			"All adjacent units heal [+5] HP when healing",
+			"[+5] HP when healing"
+		],
+		"unitTypes":[
+			"Scout",
+			"Ranged Infantry",
+			"Melee Infantry",
+			"Irregular Infantry"
+		],
+		"column":2,
+		"row":11
+	},
+	{
+		"name":"Sentry",
+		"prerequisites":[
+			"Shock I",
+			"Drill I",
+			"Accuracy I",
+			"Cohesion I",
+			"Cooperation I",
+		],
+		"uniques":[
+			"[+1] Sight"
+		],
+		"unitTypes":[
+			"Ranged Infantry",
+			"Melee Infantry",
+			"Irregular Infantry"
+		],
+		"column":3,
+		"row":11
+	},
+	{
+		"name":"Skirmish",
+		"prerequisites":[
+			"Patrol III",
+			"Cohesion III"
+		],
+		"uniques":[
+			"Withdraws before melee combat <with [75]% chance>"
+		],
+		"unitTypes":[
+			"Ranged Infantry",
+			"Scout"
+		],
+		"column":4,
+		"row":11
+	},
+	
+	{
+		"name":"Bind Strength I",
+		"uniques":[
+			"Only available <when above [0] [Bindings]>",
+			"Consumes [1] [Bindings]",
+			"[+33]% Strength <when defending> <when above [0] [Bindings]>"
+		],
+		"unitTypes":[
+			"Golem"
+		],
+		"column":1,
+		"row":12
+	},
+	{
+		"name":"Bind Strength II",
+		"prerequisites":[
+			"Bind Strength I"
+		],
+		"uniques":[
+			"Only available <when above [0] [Bindings]>",
+			"Consumes [1] [Bindings]",
+			"[+33]% Strength <when defending> <when above [0] [Bindings]>"
+		],
+		"unitTypes":[
+			"Golem"
+		],
+		"column":2,
+		"row":12
+	},
+	{
+		"name":"Bind Strength III",
+		"prerequisites":[
+			"Bind Strength II"
+		],
+		"uniques":[
+			"Only available <when above [0] [Bindings]>",
+			"Consumes [1] [Bindings]",
+			"[+33]% Strength <when defending> <when above [0] [Bindings]>"
+		],
+		"unitTypes":[
+			"Golem"
+		],
+		"column":3,
+		"row":12
+	},
+	{
+		"name":"Bloodthirst",
+		"prerequisites":[
+			"Bind Strength III"
+		],
+		"uniques":[
+			"Heals [25] damage if it kills a unit",
+			"Can move after attacking"
+		],
+		"unitTypes":[
+			"Golem"
+		],
+		"column":1,
+		"row":13
+	},
+	{
+		"name":"Walking Shrine",
+		"prerequisites":[
+			"Bind Strength III"
+		],
+		"uniques":[
+			"Only available <when above [0] [Bindings]>",
+			"Consumes [1] [Bindings]",
+			"Can carry [5] [Spirit] units",
+			"[50]% chance to intercept air attacks"
+		],
+		"unitTypes":[
+			"Golem"
+		],
+		"column":2,
+		"row":13
+	},
+	{
+		"name":"Etherialism",
+		"prerequisites":[
+			"Bind Strength III"
+		],
+		"uniques":[
+			"No damage penalty for wounded units <when above [0] [Bindings]>"
+		],
+		"unitTypes":[
+			"Golem"
+		],
+		"column":3,
+		"row":13
+	},
+	{
+		"name":"Claws I",
+		"uniques":[
+			"[+15]% Strength <when attacking>"
+		],
+		"unitTypes":[
+			"Golem","Animal"
+		],
+		"column":1,
+		"row":14
+	},
+	{
+		"name":"Claws II",
+		"prerequisites":[
+			"Claws I"
+		],
+		"uniques":[
+			"[+15]% Strength <when attacking>"
+		],
+		"unitTypes":[
+			"Golem","Animal"
+		],
+		"column":2,
+		"row":14
+	},
+	{
+		"name":"Claws III",
+		"prerequisites":[
+			"Claws II"
+		],
+		"uniques":[
+			"[+15]% Strength <when attacking>"
+		],
+		"unitTypes":[
+			"Golem","Animal"
+		],
+		"column":3,
+		"row":14
+	},
+	{
+		"name":"Agility I",
+		"uniques":[
+			"[+1] Movement",
+			"[+15]% Strength <when defending> <vs [Ranged] units>"
+		],
+		"unitTypes":[
+			"Golem","Animal"
+		],
+		"column":1,
+		"row":15
+	},
+	{
+		"name":"Agility II",
+		"prerequisites":[
+			"Agility I"
+		],
+		"uniques":[
+			"[+1] Movement",
+			"[+15]% Strength <when defending> <vs [Ranged] units>"
+		],
+		"unitTypes":[
+			"Golem","Animal"
+		],
+		"column":2,
+		"row":15
+	},
+	{
+		"name":"Agility III",
+		"prerequisites":[
+			"Agility II"
+		],
+		"uniques":[
+			"[+1] Movement",
+			"[+15]% Strength <when defending> <vs [Ranged] units>"
+		],
+		"unitTypes":[
+			"Golem","Animal"
+		],
+		"column":3,
+		"row":15
+	},
 ]
