@@ -157,7 +157,8 @@
 			"[+15]% Strength <when attacking>"
 		],
 		"unitTypes":[
-			"Ranged Infantry"
+			"Ranged Infantry",
+			"Support Water"
 		],
 		"column":1,
 		"row":4
@@ -171,7 +172,8 @@
 			"[+15]% Strength <when attacking>"
 		],
 		"unitTypes":[
-			"Ranged Infantry"
+			"Ranged Infantry",
+			"Support Water"
 		],
 		"column":2,
 		"row":4
@@ -185,7 +187,8 @@
 			"[+15]% Strength <when attacking>"
 		],
 		"unitTypes":[
-			"Ranged Infantry"
+			"Ranged Infantry",
+			"Support Water"
 		],
 		"column":3,
 		"row":4
@@ -544,6 +547,8 @@
 		"prerequisites":[
 			"Shock I",
 			"Drill I",
+			"Boarding Party I",
+			"Coastal Raiding I",
 			"Accuracy I",
 			"Cohesion I",
 			"Cooperation I",
@@ -554,7 +559,9 @@
 		"unitTypes":[
 			"Ranged Infantry",
 			"Melee Infantry",
-			"Irregular Infantry"
+			"Irregular Infantry",
+			"Melee Water",
+			"Support Water"
 		],
 		"column":3,
 		"row":11
@@ -725,7 +732,8 @@
 		],
 		"uniques":[
 			"[+1] Movement",
-			"[+15]% Strength <when defending> <vs [Ranged] units>"
+			"Withdraws before melee combat <with [75]% chance>"
+			
 		],
 		"unitTypes":[
 			"Golem","Animal"
@@ -740,12 +748,251 @@
 		],
 		"uniques":[
 			"[+1] Movement",
-			"[+15]% Strength <when defending> <vs [Ranged] units>"
+			"Can move after attacking"
 		],
 		"unitTypes":[
 			"Golem","Animal"
 		],
 		"column":3,
 		"row":15
+	},
+	{
+		"name":"Tough Pelts",
+		"prerequisites":[
+			"Claws II",
+			"Agility II"
+		],
+		"uniques":[
+			"[+15]% Strength <when defending>"
+		],
+		"unitTypes":[
+			"Animal"
+		],
+		"column":1,
+		"row":16
+	},
+	{
+		"name":"Endurance",
+		"prerequisites":[
+			"Agility III"
+		],
+		"uniques":[
+			"[+5] HP when healing",
+			"Unit will heal every turn, even if it performs an action"
+		],
+		"unitTypes":[
+			"Animal"
+		],
+		"column":2,
+		"row":16
+	},
+	{
+		"name":"Ferocity",
+		"prerequisites":[
+			"Claws III"
+		],
+		"uniques":[
+			"[+15]% Strength <when attacking>",
+			"[1] additional attacks per turn"
+		],
+		"unitTypes":[
+			"Animal"
+		],
+		"column":3,
+		"row":16
+	},
+
+	{
+		"name":"Boarding Party I",
+		"uniques":[
+			"[+33]% Strength <vs [Water] units>"
+		],
+		"unitTypes":[
+			"Melee Water"
+		],
+		"column":1,
+		"row":17
+	},
+	{
+		"name":"Boarding Party II",
+		"prerequisites":[
+			"Boarding Party I"
+		],
+		"uniques":[
+			"[+33]% Strength <vs [Water] units>"
+		],
+		"unitTypes":[
+			"Melee Water"
+		],
+		"column":2,
+		"row":17
+	},
+	{
+		"name":"Boarding Party III",
+		"prerequisites":[
+			"Boarding Party II"
+		],
+		"uniques":[
+			"[+33]% Strength <vs [Water] units>",
+			"Only available <for units without [Ramming]>",
+			"May capture killed [Melee Water] units",
+			"May capture killed [Support Water] units"
+		],
+		"unitTypes":[
+			"Melee Water"
+		],
+		"column":3,
+		"row":17
+	},
+	{
+		"name":"Ramming",
+		"prerequisites":[
+			"Boarding Party II"
+		],
+		"uniques":[
+			"[+33]% Strength <when attacking>",
+			"Only available <for units without [Boarding Party III]>"
+		],
+		"unitTypes":[
+			"Melee Water"
+		],
+		"column":4,
+		"row":17
+	},
+	{
+		"name":"Coastal Raiding I",
+		"uniques":[
+			"[+33]% Strength <when attacking> <vs cities>"
+		],
+		"unitTypes":[
+			"Melee Water"
+		],
+		"column":1,
+		"row":18
+	},
+	{
+		"name":"Coastal Raiding II",
+		"prerequisites":[
+			"Coastal Raiding I"
+		],
+		"uniques":[
+			"[+33]% Strength <when attacking> <vs cities>"
+		],
+		"unitTypes":[
+			"Melee Water"
+		],
+		"column":2,
+		"row":18
+	},
+	{
+		"name":"Coastal Raiding III",
+		"prerequisites":[
+			"Coastal Raiding II"
+		],
+		"uniques":[
+			"[+34]% Strength <when attacking> <vs cities>",
+			"Earn [100]% of the damage done to [City] units as [Gold]"
+		],
+		"unitTypes":[
+			"Melee Water"
+		],
+		"column":3,
+		"row":18
+	},
+	{
+		"name":"Landing Party",
+		"prerequisites":[
+			"Coastal Raiding III"
+		],
+		"uniques":[
+			"Eliminates combat penalty for attacking across a coast"
+		],
+		"unitTypes":[
+			"Melee Water"
+		],
+		"column":4,
+		"row":18
+	},
+
+	{
+		"name":"Supply",
+		"prerequisites":[
+			"Boarding Party II",
+			"Coastal Raiding II",
+			"Accuracy II"
+		],
+		"uniques":[
+			"All adjacent units heal [5] HP when healing",
+			"May heal outside of friendly territory"
+		],
+		"unitTypes":[
+			"Melee Water",
+			"Support Water"
+		],
+		"column":1,
+		"row":19
+	}
+
+	{
+		"name":"Onboard Shrine",
+		"uniques":[
+			"Only available <when above [0] [Bindings]>",
+			"Consumes [1] [Bindings]",
+			"Can carry [5] [Spirit] units",
+		],
+		"unitTypes":[
+			"Support Water"
+		],
+		"column":1,
+		"row":20
+	},
+	{
+		"name":"Tether I",
+		"prerequisites":[
+			"Onboard Shrine"
+		],
+		"uniques":[
+			"Only available <when above [0] [Bindings]>",
+			"Consumes [1] [Bindings]",
+			"Can carry [1] extra [Spirit] units"
+		],
+		"unitTypes":[
+			"Support Water"
+		],
+		"column":2,
+		"row":20
+	},
+	{
+		"name":"Tether II",
+		"prerequisites":[
+			"Tether I"
+		],
+		"uniques":[
+			"Only available <when above [0] [Bindings]>",
+			"Consumes [1] [Bindings]",
+			"Can carry [1] extra [Spirit] units"
+		],
+		"unitTypes":[
+			"Support Water"
+		],
+		"column":3,
+		"row":20
+	},
+	{
+		"name":"Tether III",
+		"prerequisites":[
+			"Tether II"
+		],
+		"uniques":[
+			"Only available <when above [0] [Bindings]>",
+			"Consumes [1] [Bindings]",
+			"Can carry [1] extra [Spirit] units",
+			"[+34]% Strength <when defending> <vs [Sea Beast] units>"
+		],
+		"unitTypes":[
+			"Support Water"
+		],
+		"column":4,
+		"row":20
 	},
 ]
