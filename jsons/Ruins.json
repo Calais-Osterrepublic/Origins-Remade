@@ -1,9 +1,34 @@
 [
-    {
-        "name": "found survey location",
-		"notification": "Your men located lookout point!",
-		"uniques": [
+	{
+		"name":"Found a Survey Location",
+		"notification":"Your men found a lookout point!",
+		"weight":40,
+		"uniques":[
 			"From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"
 		]
-    }
+	},
+	{
+		"name":"Revelation",
+		"notification":"Your unit has had their fate revealed! Go forth, ye noble one!",
+		"weight":10,
+		"uniques":[
+			"This Unit gains the [Blessing] promotion"
+		]
+	},
+	{
+		"name":"Beautiful Things",
+		"notification":"We found something that looks nice! (+[cultureAmount] culture)",
+		"weight":25,
+		"uniques":[
+			"Gain [10]-[100] [Culture]",
+		]
+	},
+	{
+		"name":"Wealth Cache",
+		"notification":"Found a hidden treasure! Will it yield great value?",
+		"weight":25,
+		"uniques":[
+			"Gain [10]-[100] [Gold]"
+		]
+	}
 ]
