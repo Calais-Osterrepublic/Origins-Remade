@@ -26,6 +26,16 @@
 		"row":0,
 		"column":1
 	},
+	{
+		"name":"Blessing",
+		"uniques":[
+			"[+50]% Strength <when attacking>",
+			"[+15] HP when healing",
+			"[-50]% Strength <when defending>"
+		],
+		"row":0,
+		"column":2
+	},
 	
 	{
 		"name":"Shock I",
@@ -994,5 +1004,216 @@
 		],
 		"column":4,
 		"row":20
+	},
+
+	{
+		"name":"Scales I",
+		"uniques":[
+			"[+33]% Strength <when defending>"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":1,
+		"row":21
+	},
+	{
+		"name":"Scales II",
+		"prerequisites":[
+			"Scales I"
+		],
+		"uniques":[
+			"[+33]% Strength <when defending>"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":2,
+		"row":21
+	},
+	{
+		"name":"Scales III",
+		"prerequisites":[
+			"Scales II"
+		],
+		"uniques":[
+			"Invisible to others <when above [75] HP>"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":3,
+		"row":21
+	},
+	{
+		"name":"Jaws I",
+		"uniques":[
+			"[+33]% Strength <when attacking>"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":1,
+		"row":22
+	},
+	{
+		"name":"Jaws II",
+		"prerequisites":[
+			"Jaws I"
+		],
+		"uniques":[
+			"[+33]% Strength <when attacking>"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":2,
+		"row":22
+	},
+	{
+		"name":"Jaws III",
+		"prerequisites":[
+			"Jaws II"
+		],
+		"uniques":[
+			"[+33]% Strength <when attacking>"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":3,
+		"row":22
+	},
+	{
+		"name":"Sight I",
+		"uniques":[
+			"[+1] Sight"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":1,
+		"row":23
+	},
+	{
+		"name":"Sight II",
+		"prerequisites":[
+			"Sight I"
+		],
+		"uniques":[
+			"[+1] Sight"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":2,
+		"row":23
+	},
+	{
+		"name":"Sight III",
+		"prerequisites":[
+			"Sight II"
+		],
+		"uniques":[
+			"Can see invisible [Wounded] units"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":3,
+		"row":23
+	},
+	{
+		"name":"Fins I",
+		"uniques":[
+			"[+1] Movement"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":1,
+		"row":24
+	},
+	{
+		"name":"Fins II",
+		"prerequisites":[
+			"Fins I"
+		],
+		"uniques":[
+			"[+1] Movement"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":2,
+		"row":24
+	},
+	{
+		"name":"Fins III",
+		"prerequisites":[
+			"Fins II"
+		],
+		"uniques":[
+			"[1] additional attacks per turn",
+			"Can move after attacking",
+			"Withdraws before melee combat <with [50]% chance>"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":3,
+		"row":24
+	},
+	{
+		"name":"Regeneration",
+		"prerequisites":[
+			"Scales III",
+			"Jaws III",
+			"Sight III",
+			"Fins III"
+		],
+		"uniques":[
+			"Heal this unit by [10] HP <every [2] turns>"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":1,
+		"row":25
+	},
+	{
+		"name":"Advanced Metabolism",
+		"prerequisites":[
+			"Scales III",
+			"Jaws III",
+			"Sight III",
+			"Fins III"
+		],
+		"uniques":[
+			"Heals [25] damage if it kills a unit",
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":2,
+		"row":25
+	},
+	{
+		"name":"Spirit Silencer",
+		"prerequisites":[
+			"Scales III",
+			"Jaws III",
+			"Sight III",
+			"Fins III"
+		],
+		"uniques":[
+			"Can perform Air Sweep",
+			"[-33]% Strength when performing Air Sweep"
+		],
+		"unitTypes":[
+			"Sea Beast"
+		],
+		"column":3,
+		"row":25
 	},
 ]
