@@ -16,15 +16,15 @@
 		"culture":1,
 		"happiness":1,
 		"food":-1,
-		"greatPersonPoints":{
-			"Tribe":1
-		},
 		"color":[20,20,255]
 	},
 	{
 		"name":"Chieftain",
 		"science":1,
 		"culture":1,
+		"greatPersonPoints":{
+			"Tribe":1
+		},
 		"color":[255,255,20]
 	},
 	{
