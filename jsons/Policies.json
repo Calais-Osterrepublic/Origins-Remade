@@ -1,192 +1,141 @@
 [
-    {
-        "name":"Sustainability",
-        "era":"Primeval Era",
-        "priorities":{
-            "Neutral":30,
-            "Cultural":20,
-            "Diplomatic":10,
-            "Domination":10,
-            "Scientific":20
-        },
-        "uniques":[
-            "[+3 Culture] [in capital]"
-        ],
-        "policies":[
-            {
-                "name":"Herbalism",
-                "uniques":[
-                    "[+1 Food] from every [Forest]"
-                ],
-                "row":1,
-                "column":1
-            },
-            {
-                "name":"Surveying",
-                "uniques":[
-                    "[-20]% Culture cost of natural border growth [in all cities]"
-                ],
-                "row":1,
-                "column":3
-            },
-            {
-                "name":"Familial Pacts",
-                "uniques":[
-                    "[-15]% Unhappiness from [Population] [in capital]"
-                ],
-                "row":1,
-                "column":5
-            },
-            {
-                "name":"Oral Record",
-                "requires":[
-                    "Herbalism",
-                    "Surveying",
-                    "Familial Pacts"
-                ],
-                "uniques":[
-                    "[+1 Science] from all [Culture] buildings"
-                ],
-                "row":2,
-                "column":2
-            },
-            {
-                "name":"Specialization",
-                "requires":[
-                    "Surveying",
-                    "Familial Pacts"
-                ],
-                "uniques":[
-                    
-                ],
-                "row":2,
-                "column":4
-            },
-            {
-                "name":"Botany",
-                "uniques":[
-                    
-                ],
-                "requires":[
-                    "Herbalism",
-                    "Specialization",
-                    "Oral Record"
-                ],
-                "row":3,
-                "column":1
-            },
-            {
-                "name":"Classification",
-                "uniques":[
-                    
-                ],
-                "requires":[
-                    "Oral Record",
-                    "Specialization"
-                ],
-                "row":3,
-                "column":5
-            },
-            {
-                "name":"Sustainability Complete",
-                "uniques":[
-                    
-                ]
-            }
-        ]
-    },
-    {
-        "name":"Territorialism",
-        "era":"Primeval Era",
-        "priorities":{
-            "Neutral":30,
-            "Cultural":10,
-            "Diplomatic":10,
-            "Domination":30,
-            "Scientific":10
-        },
-        "uniques":[
-            "Earn [33]% of killed [Military] unit's [Cost] as [Culture]"
-        ],
-        "policies":[
-            {
-                "name":"Scouting",
-                "uniques":[
-                    
-                ],
-                "row":1,
-                "column":1
-            },
-            {
-                "name":"Rigorous Training",
-                "uniques":[
-                    
-                ],
-                "row":1,
-                "column":3
-            },
-            {
-                "name":"Tribal Unity",
-                "uniques":[
-                    
-                ],
-                "row":1,
-                "column":5
-            },
-            {
-                "name":"Patrol Teams",
-                "requires":[
-                    "Scouting",
-                    "Rigorous Training"
-                ],
-                "uniques":[
-                    
-                ],
-                "row":2,
-                "column":1
-            },
-            {
-                "name":"Martial Doctrine",
-                "uniques":[
-                    
-                ],
-                "requires":[
-                    "Rigorous Training",
-                    "Tribal Unity"
-                ],
-                "row":2,
-                "column":3
-            },
-            {
-                "name":"Occupational Identity",
-                "uniques":[
-                    
-                ],
-                "requires":[
-                    "Rigorous Training",
-                    "Tribal Unity"
-                ],
-                "row":2,
-                "column":5
-            },
-            {
-                "name":"Warrior's Creed",
-                "uniques":[
-                    
-                ],
-                "requires":[
-                    "Martial Doctrine",
-                    "Occupational Identity"
-                ],
-                "row":3,
-                "column":3
-            },
-            {
-                "name":"Territorialism Complete",
-                "uniques":[
-                    
-                ]
-            }
-        ]
-    }
+	{
+		"name":"Sustainability",
+		"era":"Primeval Era",
+		"priorities":{
+			"Neutral":30,
+			"Cultural":20,
+			"Diplomatic":10,
+			"Domination":10,
+			"Scientific":20
+		},
+		"uniques":[
+			"[+3 Culture] [in capital]"
+		],
+		"policies":[
+			{
+				"name":"Oral Tradition",
+				"uniques":[
+					
+				],
+				"row":1,
+				"column":1
+			},
+			{
+				"name":"Familial Occupations",
+				"uniques":[
+					
+				],
+				"row":1,
+				"column":3
+			},
+			{
+				"name":"Tribal Pact",
+				"uniques":[
+					
+				],
+				"row":1,
+				"column":5
+			},
+			{
+				"name":"Communalism",
+				"requires":[
+					"Oral Tradition"
+				],
+				"uniques":[
+					
+				],
+				"row":2,
+				"column":2
+			},
+			{
+				"name":"Tribal Identity",
+				"requires":[
+					"Tribal Pact",
+					"Familial Occupations"
+				],
+				"uniques":[
+					
+				],
+				"row":2,
+				"column":4
+			},
+			{
+				"name":"Sustainability Complete",
+				"uniques":[
+					
+				]
+			}
+		]
+	},
+	{
+		"name":"Territorialism",
+		"era":"Primeval Era",
+		"priorities":{
+			"Neutral":30,
+			"Cultural":10,
+			"Diplomatic":10,
+			"Domination":30,
+			"Scientific":10
+		},
+		"uniques":[
+			"Earn [33]% of killed [Military] unit's [Cost] as [Culture]"
+		],
+		"policies":[
+			{
+				"name":"Discipline",
+				"uniques":[
+					
+				],
+				"row":1,
+				"column":1
+			},
+			{
+				"name":"Rigorous Training",
+				"uniques":[
+					
+				],
+				"row":1,
+				"column":3
+			},
+			{
+				"name":"Tribal Loyalty",
+				"uniques":[
+					
+				],
+				"row":1,
+				"column":5
+			},
+			{
+				"name":"Martial Doctrine",
+				"requires":[
+					"Discipline",
+					"Rigorous Training",
+					"Tribal Loyalty"
+				],
+				"uniques":[
+					
+				],
+				"row":2,
+				"column":3
+			},
+			{
+				"name":"Standing Army",
+				"uniques":[
+					
+				],
+				"requires":[
+					"Martial Doctrine"
+				],
+				"row":3,
+				"column":3
+			},
+			{
+				"name":"Territorialism Complete",
+				"uniques":[
+					
+				]
+			}
+		]
+	}
 ]
