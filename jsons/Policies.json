@@ -24,7 +24,8 @@
 			{
 				"name":"Familial Occupations",
 				"uniques":[
-					"[+1 Happiness] per [5] population [in all cities]"
+					"[+1 Happiness] per [10] population [in all cities]",
+					"[+1 Culture] from every specialist [in all cities]"
 				],
 				"row":1,
 				"column":3
@@ -32,8 +33,7 @@
 			{
 				"name":"Tribal Pact",
 				"uniques":[
-					"[+1 Food] [in all cities]",
-					"[+33]% [Culture] from City-States"
+					"Allied City-States provide [Culture] equal to [66]% of what they produce for themselves"
 				],
 				"row":1,
 				"column":5
@@ -44,8 +44,7 @@
 					"Oral Tradition"
 				],
 				"uniques":[
-					"[+10]% City Strength from defensive buildings",
-					"[-33]% Unhappiness from [Population] [in all cities with a garrison]"
+					"[+50]% Production towards any buildings that already exist in the Capital"
 				],
 				"row":2,
 				"column":2
@@ -57,7 +56,8 @@
 					"Familial Occupations"
 				],
 				"uniques":[
-					"[100]% of excess happiness converted to [Culture]"
+					"[33]% of excess happiness converted to [Culture]",
+					"Empire enters golden age"
 				],
 				"row":2,
 				"column":4
@@ -65,7 +65,8 @@
 			{
 				"name":"Sustainability Complete",
 				"uniques":[
-					
+					"[+1 Happiness, +1 Culture] per [2] population [in capital]",
+					"[+20]% growth [in all cities]"
 				]
 			}
 		]
@@ -87,47 +88,53 @@
 			{
 				"name":"Discipline",
 				"uniques":[
-					
-				],
-				"row":1,
-				"column":1
-			},
-			{
-				"name":"Rigorous Training",
-				"uniques":[
-					
+					"Comment [Add Military experience in cities with a Military Building] <hidden from users>"
 				],
 				"row":1,
 				"column":3
 			},
 			{
-				"name":"Tribal Loyalty",
-				"uniques":[
-					
+				"name":"Rigorous Training",
+				"requires":[
+					"Discipline"
 				],
-				"row":1,
-				"column":5
+				"uniques":[
+					"Comment [Add to cities with a Military Building] <hidden from users>"
+				],
+				"row":2,
+				"column":1
 			},
 			{
-				"name":"Martial Doctrine",
+				"name":"Tribal Loyalty",
 				"requires":[
-					"Discipline",
-					"Rigorous Training",
-					"Tribal Loyalty"
+					"Discipline"
 				],
 				"uniques":[
-					
+					"[+2 Production, +2 Culture, +2 Happiness] [in all cities with a garrison]"
 				],
 				"row":2,
 				"column":3
 			},
 			{
+				"name":"Martial Doctrine",
+				"requires":[
+					"Discipline"
+				],
+				"uniques":[
+					"Instantly provides [1] [Prestige] <upon defeating a [Military] unit>"
+				],
+				"row":2,
+				"column":5
+			},
+			{
 				"name":"Standing Army",
 				"uniques":[
-					
+					"[+50]% Production when constructing [{Land} {Military}] units [in all cities]",
 				],
 				"requires":[
-					"Martial Doctrine"
+					"Rigorous Training",
+					"Martial Doctrine",
+					"Tribal Loyalty"
 				],
 				"row":3,
 				"column":3
@@ -164,24 +171,8 @@
 			},
 			{
 				"name":"Domestic Enforcers",
-				"uniques":[
-					
-				],
-				"row":2,
-				"column":1
-			},
-			{
-				"name":"Central Planner",
-				"uniques":[
-					
-				],
-				"row":2,
-				"column":3
-			},
-			{
-				"name":"Monumentalism",
 				"requires":[
-					"Oral Tradition"
+					"Central Authority"
 				],
 				"uniques":[
 					
@@ -190,16 +181,37 @@
 				"column":2
 			},
 			{
-				"name":"Succession",
+				"name":"Central Planner",
 				"requires":[
-					"Tribal Pact",
-					"Familial Occupations"
+					"Central Authority"
 				],
 				"uniques":[
 					
 				],
 				"row":2,
 				"column":4
+			},
+			{
+				"name":"Monumentalism",
+				"requires":[
+					"Central Authority"
+				],
+				"uniques":[
+					
+				],
+				"row":3,
+				"column":1
+			},
+			{
+				"name":"Succession",
+				"requires":[
+					"Central Authority"
+				],
+				"uniques":[
+					
+				],
+				"row":3,
+				"column":5
 			},
 			{
 				"name":"Consolidation Complete",
@@ -229,7 +241,7 @@
 					
 				],
 				"row":1,
-				"column":1
+				"column":2
 			},
 			{
 				"name":"Organizational Trust",
@@ -237,22 +249,13 @@
 					
 				],
 				"row":1,
-				"column":3
+				"column":4
 			},
 			{
 				"name":"Autonomy",
-				"uniques":[
-					
-				],
-				"row":1,
-				"column":5
-			},
-			{
-				"name":"Noble Ordination",
 				"requires":[
-					"Discipline",
-					"Rigorous Training",
-					"Tribal Loyalty"
+					"Allegiance",
+					"Organizational Trust"
 				],
 				"uniques":[
 					
@@ -261,15 +264,31 @@
 				"column":3
 			},
 			{
-				"name":"Vassalship",
+				"name":"Noble Ordination",
+				"requires":[
+					"Autonomy"
+				],
+				"requires":[
+					"Discipline",
+					"Rigorous Training",
+					"Tribal Loyalty"
+				],
 				"uniques":[
 					
 				],
+				"row":3,
+				"column":1
+			},
+			{
+				"name":"Vassalship",
 				"requires":[
-					"Martial Doctrine"
+					"Autonomy"
+				],
+				"uniques":[
+					
 				],
 				"row":3,
-				"column":3
+				"column":5
 			},
 			{
 				"name":"Honor Complete",
