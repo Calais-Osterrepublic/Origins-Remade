@@ -5,8 +5,32 @@
 		"movement":1,
 		"uniques":[
 			"Founds a new city <by consuming this unit>",
-			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population",
+			"Unbuildable",
+			"Can build [Land] improvements on tiles",
+			"Cannot be purchased"
+		]
+	},	
+	{
+		"name":"Great Harvester",
+		"unitType":"Civilian",
+		"movement":1,
+		"uniques":[
+			"[+2] population [in this city] <by consuming this unit>",
+			"Empire enters golden age <by consuming this unit>",
+			"Unbuildable",
+			"Cannot be purchased"
+		]
+	},	
+	{
+		"name":"Great Seer",
+		"unitType":"Civilian",
+		"religiousStrength": 1000
+		"movement":2,
+		"uniques":[
+			"May found a religion <by consuming this unit>",
+			"May enhance a religion <by consuming this unit>",
+			"Can Spread Religion <[2] times>",
+			"Removes other religions when spreading religion",
 			"Unbuildable",
 			"Cannot be purchased"
 		]
