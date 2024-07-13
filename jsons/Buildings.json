@@ -1,8 +1,7 @@
 [
 	{
 		"name":"Tribe Center",
-		"maintenance":0,
-		"isNationalWonder":true,
+		"culture": 1,
 		"specialistSlots":{
 			"Chieftain":1
 		},
@@ -11,47 +10,10 @@
 			"Indicates the capital city"
 		]
 	},
-	{
-		"name": "Woven Huts",
-		"uniques": [
-			"[+10]% growth [in this city]",
-			"[+1 Production] from [Jungle] tiles [in this city]",
-			"Only available <with [3] to [6] neighboring [Jungle] tiles>"
-		],
-		"requiredTech": "Dawn of the Tribes",
-		"cost": 40
-	},
-	{
-		"name": "Stick Shelters",
-		"uniques": [
-			"[+5]% growth [in this city]",
-			"[+1 Production] from [Forest] tiles [in this city]",
-			"Only available <with [3] to [6] neighboring [Forest] tiles>"
-		],
-		"requiredTech": "Dawn of the Tribes",
-		"cost": 20
-	},
-	{
-		"name": "Mud Huts",
-		"uniques": [
-			"[+20]% growth [in this city]",
-			"Only available <in [River] tiles>"
-		],
-		"requiredTech": "Dawn of the Tribes",
-		"cost": 60
-	},
-	{
-		"name": "Fur Shelters",
-		"happiness":2,
-		"uniques": [
-			"[+1 Production] from [Wild animals] tiles [in this city]",
-			"Must have an owned [Wild animals] within [2] tiles"
-		],
-		"requiredTech": "Dawn of the Tribes",
-		"cost": 20
-	},
+	//Hunter Branch - Food/Military
 	{	
 		"name": "Hunters Lodge",
+		"food": 1,
 		"maintenance": 0,
 		"specialistSlots":{
 			"Hunter": 1
@@ -59,32 +21,50 @@
 		"requiredTech": "Hunting",
 		"cost": 60
 	},
+	{
+		"name": "Training Grounds",
+		"uniques": [
+			"New [Melee] units start with [15] Experience [in this city]"
+		],
+		"requiredTech": "Warbands",
+	},
+	//Gatherer Branch - Production
 	{	
 		"name": "Gatherers Lodge",
 		"maintenance": 0,
+		"production": 1,
 		"specialistSlots":{
 			"Gatherer": 1
 		},
 		"requiredTech": "Gathering",
 		"cost": 60
 	},
+	//Elder's Branch - Culture
 	{
 		"name": "Elder's Hut",
+		"culture": 1,
 		"specialistSlots":{
 			"Elder":1
 		},
 		"requiredTech": "Differentiation",
 		"cost": 80
 	},
+	//Shaman's Branch - Science/Faith
 	{
 		"name": "Shaman's Hut",
+		"science": 1,
+		"faith": 1,
 		"specialistSlots":{
 			"Shaman":1
 		},
 		"uniques": [
-			"Only available <after adopting [Botany]>"
+			
 		],
 		"requiredTech": "Differentiation",
 		"cost": 80
 	}
+	//Religious Buildings
+	//Special Buildings
+	//Wonders
+	//National Wonders
 ]
