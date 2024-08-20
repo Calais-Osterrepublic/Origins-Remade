@@ -1,5 +1,5 @@
 # Origins Remade
-Made off of the ruleset made by Monokiro. 
+Made using the Import Repository action on the Origins ruleset made by Monokiro. 
 I will take it down upon request.
 Original Here: https://github.com/Monokiro/Origins
 Wishes to expand on some of the ideas he began the project with.
